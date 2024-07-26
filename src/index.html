@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Pages</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="bg-primary fixed w-full top-0 z-30 ">
+        <div class="container my-2 mx-auto w-full flex justify-between items-center py-3 ">
+            <img src="./assets/Yellow-Pages-w-Text (YellowPages-TurkiyeninFirmaRehberi).png" width="240" alt="Logo"
+                srcset="">
+            <div class="flex gap-12 items-center">
+                <ul class="flex gap-8 text-base font-bold text-secondary">
+                    <li class="cursor-pointer hover:underline-offset-[12px] hover:underline">Add Company</li>
+                    <li class="cursor-pointer hover:underline-offset-[12px] hover:underline">Grow your Business</li>
+                    <li class="cursor-pointer hover:underline-offset-[12px] hover:underline">Blog</li>
+                </ul>
+                <button
+                    class="px-14 h-[44px] border-2 rounded-md bg-white border-white text-base font-bold text-secondary hover:shadow-[0px_7px_9px_0px_rgba(148,139,37,20)] transition-all">Login</button>
+            </div>
+        </div>
+    </section>
+    <!-- HERO SECTION -->
+    <section class="bg-primary h-[calc(90vh-84px)] min-h-[650px] flex-col relative ">
+        <!-- Header Section -->
+       
+        <!-- Hero Search Section -->
+        <div class="container mx-auto flex flex-col w-full h-full py-10 justify-evenly items-center ">
+            <div class="flex flex-col gap-8 pt-[84px]">
+                <h1 class="text-[48px] leading-[56px] font-bold text-secondary text-center">Search in Turkey’s Largest
+                    Business Directory</h1>
+                <div class="flex  bg-white p-[32px] rounded-md gap-3 shadow-[0px_7px_9px_0px_rgba(148,139,37,20)] ">
+                    <div class="relative flex-1 flex items-center">
+                        <input
+                            class="bg-[#F7F7F7] pl-10 w-full pr-[15px] rounded-md h-[70px] text-base font-bold text-secondary focus-visible:outline-none"
+                            type="text" name="" id="" placeholder="What are you looking for">
+                        <img class="absolute left-3" src="./assets/Search.png" alt="">
+                    </div>
+                    <div class="relative flex items-center flex-1">
+                        <input
+                            class="bg-[#F7F7F7] pl-10 w-full pr-[15px] rounded-md h-[70px] text-base font-bold text-secondary focus-visible:outline-none"
+                            type="text" name="" id="" placeholder="Location">
+                        <img class="absolute left-3" src="./assets/location-icon.png" alt="">
+                    </div>
+                    <button
+                        class="px-10 h-[70px] flex items-center justify-center gap-3 w-fit rounded-md bg-black text-base font-bold text-primary transition-all">
+                        <img class="" src="./assets/blacksearchIcon.svg" alt="">
+                        <p>Search Now</p>
+                    </button>
+
+                </div>
+            </div>
+            <img class="w-fit mx-auto" src="./assets/icons-hero.png" />
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section>
+        <div class="container my-14 mx-auto flex flex-col items-center gap-7 max-w-[1024px] ">
+            <div class="flex flex-col gap-3 items-center">
+                <h2 class="text-3xl font-bold text-secondary capitalize">Popular categories</h2>
+                <p class="text-[#666] text-[16px] leading-[27px]">Your Guide to the Most Loved Categories on Yellow</p>
+            </div>
+            <div class="grid grid-cols-3 gap-4 w-full">
+                <div
+                    class="flex flex-col relative flex-1 rounded-xl overflow-hidden group h-[190px] items-center justify-center custom-after cursor-pointer gap-2 p-5">
+                    <img class="mx-auto absolute inset-0 w-full h-full group-hover:scale-125 transition-all duration-500"
+                        src="./assets/clothing.jpg" />
+                    <h3 class="text-white text-center text-xl z-[20] font-bold ">Clothing</h3>
+                </div>
+                <div
+                    class="flex flex-col relative flex-1 rounded-xl overflow-hidden group h-[190px] items-center justify-center custom-after cursor-pointer gap-2 p-5">
+                    <img class="mx-auto absolute inset-0 w-full h-full group-hover:scale-125 transition-all duration-500"
+                        src="./assets/Restaurant.jpg" />
+                    <h3 class="text-white text-center text-xl z-[20] font-bold ">Restaurant</h3>
+                </div>
+                <div
+                    class="flex flex-col relative flex-1 rounded-xl overflow-hidden group h-[190px] items-center justify-center custom-after cursor-pointer gap-2 p-5">
+                    <img class="mx-auto absolute inset-0 w-full h-full group-hover:scale-125 transition-all duration-500"
+                        src="./assets/phone-bg.jpg" />
+                    <h3 class="text-white text-center text-xl z-[20] font-bold ">Phones</h3>
+                </div>
+                <div
+                    class="flex flex-col relative flex-1 rounded-xl overflow-hidden group h-[190px] items-center justify-center custom-after cursor-pointer gap-2 p-5">
+                    <img class="mx-auto absolute inset-0 w-full h-full group-hover:scale-125 transition-all duration-500"
+                        src="./assets/health.jpg" />
+                    <h3 class="text-white text-center text-xl z-[20]  font-bold ">Health</h3>
+                </div>
+                <div
+                    class="flex flex-col relative flex-1 rounded-xl overflow-hidden group h-[190px] items-center justify-center custom-after cursor-pointer gap-2 p-5">
+                    <img class="mx-auto absolute inset-0 w-full h-full group-hover:scale-125 transition-all duration-500"
+                        src="./assets/travel.jpg" />
+                    <h3 class="text-white text-center text-xl z-[20] font-bold ">Travel</h3>
+                </div>
+                <div
+                    class="flex flex-col relative flex-1 rounded-xl overflow-hidden group h-[190px] items-center justify-center custom-after cursor-pointer gap-2 p-5">
+                    <img class="mx-auto absolute inset-0 w-full h-full group-hover:scale-125 transition-all duration-500"
+                        src="./assets/auto.jpg" />
+                    <h3 class="text-white text-center text-xl z-[20] font-bold ">Automobiles</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Listings -->
+    <section class="bg-bgColor">
+        <div class="container my-14 mx-auto flex flex-col items-center gap-7 ">
+            <div class="flex flex-col gap-3 items-center">
+                <h2 class="text-3xl font-bold text-secondary capitalize">Newest Arrivals</h2>
+                <p class="text-[#666] text-[16px] leading-[27px]">Check Out the Most Recent Listings</p>
+            </div>
+            <div class="grid grid-cols-3 gap-8">
+                <!-- Listing Box -->
+                <div
+                    class="shadow-[5px_5px_rgba(255,236,0,0.3)] hover:shadow-[5px_5px_rgba(255,236,0,1)] cursor-pointer transition-shadow duration-300 hover:transition-shadow hover:duration-300 max-w-[380px] flex flex-col border border-primary rounded-md bg-white">
+                    <!-- Image Box -->
+                    <div class="img_box rounded-tl-md  rounded-tr-md relative overflow-hidden">
+                        <img src="./assets/clothing.jpg" alt="" srcset="">
+                        <div class="absolute inset-0 w-full h-full bg-[rgba(0,0,0,0.2)]"></div>
+                        <div
+                            class="left-5 top-5 absolute bg-tertiary rounded-md text-white text-[11px] leading-[14px] px-[10px] py-[5px]">
+                            New Listing</div>
+                    </div>
+                    <!-- Content Box -->
+                    <div class="content_box flex flex-col gap-3 p-5">
+                        <div class="flex gap-5 items-center">
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-restaurant.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Restaurant</h3>
+                            </div>
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-location.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Ataşehir, Istanbul
+                                </h3>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran</h3>
+                        <p class="text-[#666] text-[16px] leading-[20px]">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</p>
+                        <div class="flex items-center gap-3">
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-phone.png" alt="">
+                                <p class="text-[18px]">Call</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icon-mail.png" alt="">
+                                <p class="text-[18px]">Email</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-website.png" alt="">
+                                <p class="text-[18px]">Website</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="shadow-[5px_5px_rgba(255,236,0,0.3)] hover:shadow-[5px_5px_rgba(255,236,0,1)] cursor-pointer transition-shadow duration-300 hover:transition-shadow hover:duration-300 max-w-[380px] flex flex-col border border-primary rounded-md bg-white">
+                    <!-- Image Box -->
+                    <div class="img_box rounded-tl-md  rounded-tr-md relative overflow-hidden">
+                        <img src="./assets/clothing.jpg" alt="" srcset="">
+                        <div class="absolute inset-0 w-full h-full bg-[rgba(0,0,0,0.2)]"></div>
+                        <div
+                            class="left-5 top-5 absolute bg-tertiary rounded-md text-white text-[11px] leading-[14px] px-[10px] py-[5px]">
+                            New Listing</div>
+                    </div>
+                    <!-- Content Box -->
+                    <div class="content_box flex flex-col gap-3 p-5">
+                        <div class="flex gap-5 items-center">
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-restaurant.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Restaurant</h3>
+                            </div>
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-location.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Ataşehir, Istanbul
+                                </h3>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran</h3>
+                        <p class="text-[#666] text-[16px] leading-[20px]">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</p>
+                        <div class="flex items-center gap-3">
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-phone.png" alt="">
+                                <p class="text-[18px]">Call</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icon-mail.png" alt="">
+                                <p class="text-[18px]">Email</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-website.png" alt="">
+                                <p class="text-[18px]">Website</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="shadow-[5px_5px_rgba(255,236,0,0.3)] hover:shadow-[5px_5px_rgba(255,236,0,1)] cursor-pointer transition-shadow duration-300 hover:transition-shadow hover:duration-300 max-w-[380px] flex flex-col border border-primary rounded-md bg-white">
+                    <!-- Image Box -->
+                    <div class="img_box rounded-tl-md  rounded-tr-md relative overflow-hidden">
+                        <img src="./assets/clothing.jpg" alt="" srcset="">
+                        <div class="absolute inset-0 w-full h-full bg-[rgba(0,0,0,0.2)]"></div>
+                        <div
+                            class="left-5 top-5 absolute bg-tertiary rounded-md text-white text-[11px] leading-[14px] px-[10px] py-[5px]">
+                            New Listing</div>
+                    </div>
+                    <!-- Content Box -->
+                    <div class="content_box flex flex-col gap-3 p-5">
+                        <div class="flex gap-5 items-center">
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-restaurant.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Restaurant</h3>
+                            </div>
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-location.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Ataşehir, Istanbul
+                                </h3>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran</h3>
+                        <p class="text-[#666] text-[16px] leading-[20px]">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</p>
+                        <div class="flex items-center gap-3">
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-phone.png" alt="">
+                                <p class="text-[18px]">Call</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icon-mail.png" alt="">
+                                <p class="text-[18px]">Email</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-website.png" alt="">
+                                <p class="text-[18px]">Website</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="shadow-[5px_5px_rgba(255,236,0,0.3)] hover:shadow-[5px_5px_rgba(255,236,0,1)] cursor-pointer transition-shadow duration-300 hover:transition-shadow hover:duration-300 max-w-[380px] flex flex-col border border-primary rounded-md bg-white">
+                    <!-- Image Box -->
+                    <div class="img_box rounded-tl-md  rounded-tr-md relative overflow-hidden">
+                        <img src="./assets/clothing.jpg" alt="" srcset="">
+                        <div class="absolute inset-0 w-full h-full bg-[rgba(0,0,0,0.2)]"></div>
+                        <div
+                            class="left-5 top-5 absolute bg-tertiary rounded-md text-white text-[11px] leading-[14px] px-[10px] py-[5px]">
+                            New Listing</div>
+                    </div>
+                    <!-- Content Box -->
+                    <div class="content_box flex flex-col gap-3 p-5">
+                        <div class="flex gap-5 items-center">
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-restaurant.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Restaurant</h3>
+                            </div>
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-location.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Ataşehir, Istanbul
+                                </h3>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran</h3>
+                        <p class="text-[#666] text-[16px] leading-[20px]">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</p>
+                        <div class="flex items-center gap-3">
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-phone.png" alt="">
+                                <p class="text-[18px]">Call</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icon-mail.png" alt="">
+                                <p class="text-[18px]">Email</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-website.png" alt="">
+                                <p class="text-[18px]">Website</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="shadow-[5px_5px_rgba(255,236,0,0.3)] hover:shadow-[5px_5px_rgba(255,236,0,1)] cursor-pointer transition-shadow duration-300 hover:transition-shadow hover:duration-300 max-w-[380px] flex flex-col border border-primary rounded-md bg-white">
+                    <!-- Image Box -->
+                    <div class="img_box rounded-tl-md  rounded-tr-md relative overflow-hidden">
+                        <img src="./assets/clothing.jpg" alt="" srcset="">
+                        <div class="absolute inset-0 w-full h-full bg-[rgba(0,0,0,0.2)]"></div>
+                        <div
+                            class="left-5 top-5 absolute bg-tertiary rounded-md text-white text-[11px] leading-[14px] px-[10px] py-[5px]">
+                            New Listing</div>
+                    </div>
+                    <!-- Content Box -->
+                    <div class="content_box flex flex-col gap-3 p-5">
+                        <div class="flex gap-5 items-center">
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-restaurant.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Restaurant</h3>
+                            </div>
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-location.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Ataşehir, Istanbul
+                                </h3>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran</h3>
+                        <p class="text-[#666] text-[16px] leading-[20px]">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</p>
+                        <div class="flex items-center gap-3">
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-phone.png" alt="">
+                                <p class="text-[18px]">Call</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icon-mail.png" alt="">
+                                <p class="text-[18px]">Email</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-website.png" alt="">
+                                <p class="text-[18px]">Website</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="shadow-[5px_5px_rgba(255,236,0,0.3)] hover:shadow-[5px_5px_rgba(255,236,0,1)] cursor-pointer transition-shadow duration-300 hover:transition-shadow hover:duration-300 max-w-[380px] flex flex-col border border-primary rounded-md bg-white">
+                    <!-- Image Box -->
+                    <div class="img_box rounded-tl-md  rounded-tr-md relative overflow-hidden">
+                        <img src="./assets/clothing.jpg" alt="" srcset="">
+                        <div class="absolute inset-0 w-full h-full bg-[rgba(0,0,0,0.2)]"></div>
+                        <div
+                            class="left-5 top-5 absolute bg-tertiary rounded-md text-white text-[11px] leading-[14px] px-[10px] py-[5px]">
+                            New Listing</div>
+                    </div>
+                    <!-- Content Box -->
+                    <div class="content_box flex flex-col gap-3 p-5">
+                        <div class="flex gap-5 items-center">
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-restaurant.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Restaurant</h3>
+                            </div>
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-location.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Ataşehir, Istanbul
+                                </h3>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran</h3>
+                        <p class="text-[#666] text-[16px] leading-[20px]">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</p>
+                        <div class="flex items-center gap-3">
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-phone.png" alt="">
+                                <p class="text-[18px]">Call</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icon-mail.png" alt="">
+                                <p class="text-[18px]">Email</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-website.png" alt="">
+                                <p class="text-[18px]">Website</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Searches -->
+    <section>
+        <div class="container my-14 mx-auto flex flex-col items-center gap-7 ">
+            <div class="flex flex-col gap-3 items-center">
+                <h2 class="text-3xl font-bold text-secondary capitalize">Hot Searches</h2>
+                <p class="text-[#666] text-[16px] leading-[27px]">Explore Popular Search Interests</p>
+            </div>
+            <div class="flex flex-wrap justify-center gap-8">
+                <div
+                    class="flex group justify-between relative overflow-hidden items-center border-2 py-2 px-5 border-primary rounded-full hover:bg-primary cursor-pointer transition-colors duration-300 w-[30%]">
+                    <p class="">Lorem ipsum dolor sit amet consectetur.</p>
+                    <span
+                        class="bg-primary group-hover:bg-white transition-colors duration-300 px-2 rounded-full w-fit absolute right-0 h-full flex items-center">
+                        <p>
+                            56.2k
+                        </p>
+                    </span>
+                </div>
+                <div
+                    class="flex group justify-between relative overflow-hidden items-center border-2 py-2 px-5 border-primary rounded-full hover:bg-primary cursor-pointer transition-colors duration-300 w-[30%]">
+                    <p class="">Lorem ipsum dolor sit amet consectetur.</p>
+                    <span
+                        class="bg-primary group-hover:bg-white transition-colors duration-300 px-2 rounded-full w-fit absolute right-0 h-full flex items-center">
+                        <p>
+                            56.2k
+                        </p>
+                    </span>
+                </div>
+                <div
+                    class="flex group justify-between relative overflow-hidden items-center border-2 py-2 px-5 border-primary rounded-full hover:bg-primary cursor-pointer transition-colors duration-300 w-[30%]">
+                    <p class="">Lorem ipsum dolor sit amet consectetur.</p>
+                    <span
+                        class="bg-primary group-hover:bg-white transition-colors duration-300 px-2 rounded-full w-fit absolute right-0 h-full flex items-center">
+                        <p>
+                            56.2k
+                        </p>
+                    </span>
+                </div>
+                <div
+                    class="flex group justify-between relative overflow-hidden items-center border-2 py-2 px-5 border-primary rounded-full hover:bg-primary cursor-pointer transition-colors duration-300 w-[30%]">
+                    <p class="">Lorem ipsum dolor sit amet consectetur.</p>
+                    <span
+                        class="bg-primary group-hover:bg-white transition-colors duration-300 px-2 rounded-full w-fit absolute right-0 h-full flex items-center">
+                        <p>
+                            56.2k
+                        </p>
+                    </span>
+                </div>
+                <div
+                    class="flex group justify-between relative overflow-hidden items-center border-2 py-2 px-5 border-primary rounded-full hover:bg-primary cursor-pointer transition-colors duration-300 w-[30%]">
+                    <p class="">Lorem ipsum dolor sit amet consectetur.</p>
+                    <span
+                        class="bg-primary group-hover:bg-white transition-colors duration-300 px-2 rounded-full w-fit absolute right-0 h-full flex items-center">
+                        <p>
+                            56.2k
+                        </p>
+                    </span>
+                </div>
+                <div
+                    class="flex group justify-between relative overflow-hidden items-center border-2 py-2 px-5 border-primary rounded-full hover:bg-primary cursor-pointer transition-colors duration-300 w-[30%]">
+                    <p class="">Lorem ipsum dolor sit amet consectetur.</p>
+                    <span
+                        class="bg-primary group-hover:bg-white transition-colors duration-300 px-2 rounded-full w-fit absolute right-0 h-full flex items-center">
+                        <p>
+                            56.2k
+                        </p>
+                    </span>
+                </div>
+                <div
+                    class="flex group justify-between relative overflow-hidden items-center border-2 py-2 px-5 border-primary rounded-full hover:bg-primary cursor-pointer transition-colors duration-300 w-[30%]">
+                    <p class="">Lorem ipsum dolor sit amet consectetur.</p>
+                    <span
+                        class="bg-primary group-hover:bg-white transition-colors duration-300 px-2 rounded-full w-fit absolute right-0 h-full flex items-center">
+                        <p>
+                            56.2k
+                        </p>
+                    </span>
+                </div>
+                <div
+                    class="flex group justify-between relative overflow-hidden items-center border-2 py-2 px-5 border-primary rounded-full hover:bg-primary cursor-pointer transition-colors duration-300 w-[30%]">
+                    <p class="">Lorem ipsum dolor sit amet consectetur.</p>
+                    <span
+                        class="bg-primary group-hover:bg-white transition-colors duration-300 px-2 rounded-full w-fit absolute right-0 h-full flex items-center">
+                        <p>
+                            56.2k
+                        </p>
+                    </span>
+                </div>
+                <div
+                    class="flex group justify-between relative overflow-hidden items-center border-2 py-2 px-5 border-primary rounded-full hover:bg-primary cursor-pointer transition-colors duration-300 w-[30%]">
+                    <p class="">Lorem ipsum dolor sit amet consectetur.</p>
+                    <span
+                        class="bg-primary group-hover:bg-white transition-colors duration-300 px-2 rounded-full w-fit absolute right-0 h-full flex items-center">
+                        <p>
+                            56.2k
+                        </p>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Listings -->
+    <section class="bg-bgColor">
+        <div class="container my-14 mx-auto flex flex-col items-center gap-7 ">
+            <div class="flex flex-col gap-3 items-center">
+                <h2 class="text-3xl font-bold text-secondary capitalize">Popular Picks</h2>
+                <p class="text-[#666] text-[16px] leading-[27px]">Discover the Most In-Demand Businesses</p>
+            </div>
+            <div class="grid grid-cols-3 gap-8">
+                <!-- Listing Box -->
+                <div
+                    class="shadow-[5px_5px_rgba(255,236,0,0.3)] hover:shadow-[5px_5px_rgba(255,236,0,1)] cursor-pointer transition-shadow duration-300 hover:transition-shadow hover:duration-300 max-w-[380px] flex flex-col border border-primary rounded-md bg-white">
+                    <!-- Image Box -->
+                    <div class="img_box rounded-tl-md  rounded-tr-md relative overflow-hidden">
+                        <img src="./assets/clothing.jpg" alt="" srcset="">
+                        <div class="absolute inset-0 w-full h-full bg-[rgba(0,0,0,0.2)]"></div>
+                        <div
+                            class="left-5 top-5 absolute bg-tertiary rounded-md text-white text-[11px] leading-[14px] px-[10px] py-[5px]">
+                            Hot Listing</div>
+                    </div>
+                    <!-- Content Box -->
+                    <div class="content_box flex flex-col gap-3 p-5">
+                        <div class="flex gap-5 items-center">
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-restaurant.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Restaurant</h3>
+                            </div>
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-location.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Ataşehir, Istanbul
+                                </h3>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran</h3>
+                        <p class="text-[#666] text-[16px] leading-[20px]">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</p>
+                        <div class="flex items-center gap-3">
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-phone.png" alt="">
+                                <p class="text-[18px]">Call</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icon-mail.png" alt="">
+                                <p class="text-[18px]">Email</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-website.png" alt="">
+                                <p class="text-[18px]">Website</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="shadow-[5px_5px_rgba(255,236,0,0.3)] hover:shadow-[5px_5px_rgba(255,236,0,1)] cursor-pointer transition-shadow duration-300 hover:transition-shadow hover:duration-300 max-w-[380px] flex flex-col border border-primary rounded-md bg-white">
+                    <!-- Image Box -->
+                    <div class="img_box rounded-tl-md  rounded-tr-md relative overflow-hidden">
+                        <img src="./assets/clothing.jpg" alt="" srcset="">
+                        <div class="absolute inset-0 w-full h-full bg-[rgba(0,0,0,0.2)]"></div>
+                        <div
+                            class="left-5 top-5 absolute bg-tertiary rounded-md text-white text-[11px] leading-[14px] px-[10px] py-[5px]">
+                            Hot Listing</div>
+                    </div>
+                    <!-- Content Box -->
+                    <div class="content_box flex flex-col gap-3 p-5">
+                        <div class="flex gap-5 items-center">
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-restaurant.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Restaurant</h3>
+                            </div>
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-location.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Ataşehir, Istanbul
+                                </h3>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran</h3>
+                        <p class="text-[#666] text-[16px] leading-[20px]">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</p>
+                        <div class="flex items-center gap-3">
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-phone.png" alt="">
+                                <p class="text-[18px]">Call</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icon-mail.png" alt="">
+                                <p class="text-[18px]">Email</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-website.png" alt="">
+                                <p class="text-[18px]">Website</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="shadow-[5px_5px_rgba(255,236,0,0.3)] hover:shadow-[5px_5px_rgba(255,236,0,1)] cursor-pointer transition-shadow duration-300 hover:transition-shadow hover:duration-300 max-w-[380px] flex flex-col border border-primary rounded-md bg-white">
+                    <!-- Image Box -->
+                    <div class="img_box rounded-tl-md  rounded-tr-md relative overflow-hidden">
+                        <img src="./assets/clothing.jpg" alt="" srcset="">
+                        <div class="absolute inset-0 w-full h-full bg-[rgba(0,0,0,0.2)]"></div>
+                        <div
+                            class="left-5 top-5 absolute bg-tertiary rounded-md text-white text-[11px] leading-[14px] px-[10px] py-[5px]">
+                            Hot Listing</div>
+                    </div>
+                    <!-- Content Box -->
+                    <div class="content_box flex flex-col gap-3 p-5">
+                        <div class="flex gap-5 items-center">
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-restaurant.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Restaurant</h3>
+                            </div>
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-location.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Ataşehir, Istanbul
+                                </h3>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran</h3>
+                        <p class="text-[#666] text-[16px] leading-[20px]">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</p>
+                        <div class="flex items-center gap-3">
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-phone.png" alt="">
+                                <p class="text-[18px]">Call</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icon-mail.png" alt="">
+                                <p class="text-[18px]">Email</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-website.png" alt="">
+                                <p class="text-[18px]">Website</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="shadow-[5px_5px_rgba(255,236,0,0.3)] hover:shadow-[5px_5px_rgba(255,236,0,1)] cursor-pointer transition-shadow duration-300 hover:transition-shadow hover:duration-300 max-w-[380px] flex flex-col border border-primary rounded-md bg-white">
+                    <!-- Image Box -->
+                    <div class="img_box rounded-tl-md  rounded-tr-md relative overflow-hidden">
+                        <img src="./assets/clothing.jpg" alt="" srcset="">
+                        <div class="absolute inset-0 w-full h-full bg-[rgba(0,0,0,0.2)]"></div>
+                        <div
+                            class="left-5 top-5 absolute bg-tertiary rounded-md text-white text-[11px] leading-[14px] px-[10px] py-[5px]">
+                            Hot Listing</div>
+                    </div>
+                    <!-- Content Box -->
+                    <div class="content_box flex flex-col gap-3 p-5">
+                        <div class="flex gap-5 items-center">
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-restaurant.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Restaurant</h3>
+                            </div>
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-location.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Ataşehir, Istanbul
+                                </h3>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran</h3>
+                        <p class="text-[#666] text-[16px] leading-[20px]">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</p>
+                        <div class="flex items-center gap-3">
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-phone.png" alt="">
+                                <p class="text-[18px]">Call</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icon-mail.png" alt="">
+                                <p class="text-[18px]">Email</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-website.png" alt="">
+                                <p class="text-[18px]">Website</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="shadow-[5px_5px_rgba(255,236,0,0.3)] hover:shadow-[5px_5px_rgba(255,236,0,1)] cursor-pointer transition-shadow duration-300 hover:transition-shadow hover:duration-300 max-w-[380px] flex flex-col border border-primary rounded-md bg-white">
+                    <!-- Image Box -->
+                    <div class="img_box rounded-tl-md  rounded-tr-md relative overflow-hidden">
+                        <img src="./assets/clothing.jpg" alt="" srcset="">
+                        <div class="absolute inset-0 w-full h-full bg-[rgba(0,0,0,0.2)]"></div>
+                        <div
+                            class="left-5 top-5 absolute bg-tertiary rounded-md text-white text-[11px] leading-[14px] px-[10px] py-[5px]">
+                            Hot Listing</div>
+                    </div>
+                    <!-- Content Box -->
+                    <div class="content_box flex flex-col gap-3 p-5">
+                        <div class="flex gap-5 items-center">
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-restaurant.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Restaurant</h3>
+                            </div>
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-location.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Ataşehir, Istanbul
+                                </h3>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran</h3>
+                        <p class="text-[#666] text-[16px] leading-[20px]">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</p>
+                        <div class="flex items-center gap-3">
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-phone.png" alt="">
+                                <p class="text-[18px]">Call</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icon-mail.png" alt="">
+                                <p class="text-[18px]">Email</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-website.png" alt="">
+                                <p class="text-[18px]">Website</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="shadow-[5px_5px_rgba(255,236,0,0.3)] hover:shadow-[5px_5px_rgba(255,236,0,1)] cursor-pointer transition-shadow duration-300 hover:transition-shadow hover:duration-300 max-w-[380px] flex flex-col border border-primary rounded-md bg-white">
+                    <!-- Image Box -->
+                    <div class="img_box rounded-tl-md  rounded-tr-md relative overflow-hidden">
+                        <img src="./assets/clothing.jpg" alt="" srcset="">
+                        <div class="absolute inset-0 w-full h-full bg-[rgba(0,0,0,0.2)]"></div>
+                        <div
+                            class="left-5 top-5 absolute bg-tertiary rounded-md text-white text-[11px] leading-[14px] px-[10px] py-[5px]">
+                            Hot Listing</div>
+                    </div>
+                    <!-- Content Box -->
+                    <div class="content_box flex flex-col gap-3 p-5">
+                        <div class="flex gap-5 items-center">
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-restaurant.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Restaurant</h3>
+                            </div>
+                            <div class="flex gap-1 items-center">
+                                <div
+                                    class="w-[25px] h-[25px] rounded-full bg-secondary flex justify-center items-center">
+                                    <img src="./assets/icon-location.png" class="w-[14px] h-[14px]" alt="" srcset="">
+                                </div>
+                                <h3 class="text-[13px] font-semibold leading-[16px] text-secondary">Ataşehir, Istanbul
+                                </h3>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran</h3>
+                        <p class="text-[#666] text-[16px] leading-[20px]">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</p>
+                        <div class="flex items-center gap-3">
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-phone.png" alt="">
+                                <p class="text-[18px]">Call</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icon-mail.png" alt="">
+                                <p class="text-[18px]">Email</p>
+                            </button>
+                            <button
+                                class="px-4 py-2 w-fit  flex items-center justify-center gap-2 rounded-md bg-black text-base font-semibold text-white transition-all">
+                                <img class="w-[18px]" src="./assets/icons-website.png" alt="">
+                                <p class="text-[18px]">Website</p>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section>
+        <div class="container my-14 mx-auto flex flex-col items-center gap-7 ">
+            <div class="flex flex-col gap-3 items-center">
+                <h2 class="text-3xl font-bold text-secondary capitalize">Blog Corner</h2>
+                <p class="text-[#666] text-[16px] leading-[27px]">Stay Informed with Our Latest Updates</p>
+            </div>
+            <div class="grid grid-cols-3 gap-8">
+                <!-- Blog Card -->
+                <div class="flex flex-col border border-[#E8E8EA] rounded-md p-4 gap-3">
+                    <div class="img_box rounded-md relative overflow-hidden">
+                        <img src="./assets/clothing.jpg" alt="" srcset="">
+                        <div class="absolute inset-0 w-full h-full bg-[rgba(0,0,0,0.2)]"></div>
+                    </div>
+                    <div class="content_box flex flex-col gap-3">
+                        <p class="text-white text-[14px] bg-tertiary w-fit px-3 py-1 rounded-md leading-[20px]">
+                            Technology</p>
+                        <h3 class="text-2xl font-bold text-secondary">The Impact of Technology on the Workplace: How
+                            Technology is Changing</h3>
+                        <div class="flex items-center gap-6">
+                            <div class="flex gap-2 items-center">
+                                <img class="w-[36px] h-[36px] rounded-full" src="./assets/blog-author.png" alt=""
+                                    srcset="">
+                                <p class="text-[#97989F] text-[16px] ">Tracey Wilson</p>
+                            </div>
+                            <p class="text-[#97989F] text-[16px] ">August 20, 2022</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Blog Card -->
+                <div class="flex flex-col border border-[#E8E8EA] rounded-md p-4 gap-3">
+                    <div class="img_box rounded-md relative overflow-hidden">
+                        <img src="./assets/clothing.jpg" alt="" srcset="">
+                        <div class="absolute inset-0 w-full h-full bg-[rgba(0,0,0,0.2)]"></div>
+                    </div>
+                    <div class="content_box flex flex-col gap-3">
+                        <p class="text-white text-[14px] bg-tertiary w-fit px-3 py-1 rounded-md leading-[20px]">
+                            Technology</p>
+                        <h3 class="text-2xl font-bold text-secondary">The Impact of Technology on the Workplace: How
+                            Technology is Changing</h3>
+                        <div class="flex items-center gap-6">
+                            <div class="flex gap-2 items-center">
+                                <img class="w-[36px] h-[36px] rounded-full" src="./assets/blog-author.png" alt=""
+                                    srcset="">
+                                <p class="text-[#97989F] text-[16px] ">Tracey Wilson</p>
+                            </div>
+                            <p class="text-[#97989F] text-[16px] ">August 20, 2022</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Blog Card -->
+                <div class="flex flex-col border border-[#E8E8EA] rounded-md p-4 gap-3">
+                    <div class="img_box rounded-md relative overflow-hidden">
+                        <img src="./assets/clothing.jpg" alt="" srcset="">
+                        <div class="absolute inset-0 w-full h-full bg-[rgba(0,0,0,0.2)]"></div>
+                    </div>
+                    <div class="content_box flex flex-col gap-3">
+                        <p class="text-white text-[14px] bg-tertiary w-fit px-3 py-1 rounded-md leading-[20px]">
+                            Technology</p>
+                        <h3 class="text-2xl font-bold text-secondary">The Impact of Technology on the Workplace: How
+                            Technology is Changing</h3>
+                        <div class="flex items-center gap-6">
+                            <div class="flex gap-2 items-center">
+                                <img class="w-[36px] h-[36px] rounded-full" src="./assets/blog-author.png" alt=""
+                                    srcset="">
+                                <p class="text-[#97989F] text-[16px] ">Tracey Wilson</p>
+                            </div>
+                            <p class="text-[#97989F] text-[16px] ">August 20, 2022</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="bg-black">
+        <div class="container flex flex-col gap-10 mt-14 mb-4 mx-auto">
+            <div class="grid grid-cols-4">
+                <div class="flex flex-col gap-5">
+                    <h2 class="text-primary text-2xl font-medium">Popular Categories</h2>
+                    <div class="flex flex-col gap-3">
+                        <p class="text-white text-base">Restaurant</p>
+                        <p class="text-white text-base">Clothing</p>
+                        <p class="text-white text-base">Mobile Phones</p>
+                        <p class="text-white text-base">Health Sector</p>
+                        <p class="text-white text-base">Travel and Tourism</p>
+                        <p class="text-white text-base">Automobiles</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <h2 class="text-primary text-2xl font-medium">Popular Locations</h2>
+                    <div class="flex flex-col gap-3">
+                        <p class="text-white text-base">Istanbul</p>
+                        <p class="text-white text-base">Ankara</p>
+                        <p class="text-white text-base">Izmir</p>
+                        <p class="text-white text-base">Bursa</p>
+                        <p class="text-white text-base">Antalya</p>
+                        <p class="text-white text-base">Konya</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <h2 class="text-primary text-2xl font-medium">About</h2>
+                    <div class="flex flex-col gap-3">
+                        <p class="text-white text-base">About Us</p>
+                        <p class="text-white text-base">Advertise with Us</p>
+                        <p class="text-white text-base">Become a Partner</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <h2 class="text-primary text-2xl font-medium">Site Directory</h2>
+                    <div class="flex flex-col gap-3">
+                        <p class="text-white text-base">Articles</p>
+                        <p class="text-white text-base">Find a Business</p>
+                        <p class="text-white text-base">White Pages</p>
+                        <p class="text-white text-base">Mobile Apps</p>
+                        <p class="text-white text-base">Reverse Phone Lookup</p>
+                        <p class="text-white text-base">Site Map</p>
+                        <p class="text-white text-base">Browse Restaurants</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-1 justify-center items-center">
+                <!-- <img class="w-[48px] h-[48px]" src="./assets/yellow-pages-turkiye_big.png" alt="" srcset=""> -->
+                <p class="text-white text-base font-light "> Yeşilce Mah. Dalgıç Sok. No:11 YBY CO11 Kat:3 4.Levent, Kağıthane, İstanbul </p>
+                <p class="text-white text-base font-light "> 2016 - 2024 DataWorks </p>
+                    
+                <!-- <div class="flex gap-2">
+                    <p class="text-white text-base font-light ">Privacy Policy</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

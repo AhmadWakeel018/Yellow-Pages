@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+section{
+  padding-left: clamp(1rem, 1.912vw + 0.388rem, 3rem);
+  padding-right: clamp(1rem, 1.912vw + 0.388rem, 3rem);
+  display: flex;
+}
+
+.custom-after {
+  position: relative;
+}
+
+.custom-after::after {
+  content: '';
+  display: block;
+  width: 100%; /* Width on hover */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: width 0.3s ease; /* Smooth transition for width */
+  position: absolute;
+  inset: 0;
+}
