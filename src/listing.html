@@ -144,624 +144,844 @@
                         </div>
                     </div>
                     <div id="listSection" class="list-view flex-col" class="flex flex-col gap-8">
-                        <div class="flex border-b border-b-secondary items-center py-5 gap-5">
+                        <div class="flex border-b border-b-secondary items-stretch py-5 gap-5">
                             <!-- Image Box -->
-                            <div
-                                class="img_box rounded-md min-w-[200px] w-[200px] h-[200px] min-h-[200px]  relative overflow-hidden">
+                            <div class="img_box min-w-[200px] w-[200px] flex  relative">
                                 <img src="./assets/clothing.jpg"
-                                    class="hover:scale-110 w-full h-full object-cover hover:duration-300 transition-all duration-300 hover:transition-all"
+                                    class="hover:scale-110 w-full rounded-md h-full object-cover hover:duration-300 transition-all duration-300 hover:transition-all"
                                     alt="" srcset="">
+                                    <button class="absolute bottom-0 px-5 py-1 text-white rounded-md left-2 w-fit translate-y-1/2 bg-tertiary">Close</button>
                             </div>
                             <!-- Content Box -->
-                            <div class="content_box flex flex-col w-full self-stretch gap-1 justify-between">
-                                <div class="flex items-center gap-2 justify-between w-full">
-
-                                    <h3 class="text-[24px] leading-8 font-[700]  text-secondary">Liman Istanbul Restoran
+                            <div class="content_box flex flex-col w-full self-stretch justify-center gap-2">
+                                <div class="flex items-center gap-2 w-full">
+                                    <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran
                                     </h3>
-                                    <div class="flex items-center gap-1">
-                                        <div class="inline-flex items-center">
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="black"
-                                                    class="w-5 h-5 cursor-pointer text-blue-gray-500">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
-                                                    </path>
-                                                </svg>
-                                            </span>
+                                    <img class="w-[25px] h-[25px]" src="./assets/check.png" alt="" srcset="">
+                                </div>
+                                <div class="flex gap-5">
+                                    <div class="max-w-[40%] flex flex-col gap-1">
+                                        <h3 class="text-[20px] leading-[20px] font-semibold text-secondary">
+                                            Restoran
+                                        </h3>
+                                        <p class="text-base font-medium text-secondary">
+                                            +90-543-5260733
+                                        </p>
+                                        <div class="flex items-center gap-2 w-full">
+                                            <div class="flex items-center gap-1">
+                                                <div class="inline-flex items-center">
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+                                                            class="w-5 h-5 cursor-pointer text-blue-gray-500">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                                            </path>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <p
+                                                    class="block font-sans text-base antialiased font-medium leading-relaxed text-secondary">
+                                                    (02)
+                                                </p>
+                                            </div>
+                                            <img class="w-[25px] h-[25px] invert" src="./assets/share.png" alt="">
                                         </div>
-                                        <p
-                                            class="block font-sans text-base antialiased font-medium leading-relaxed text-secondary">
-                                            (02)
+                                    </div>
+                                    <div class="max-w-[60%] flex flex-col gap-1">
+                                        <p class="text-[#818080] text-[14px] leading-[20px]">Cumhuriyet Mah. No:7
+                                            Balıkesir Türkiye
+                                        </p>
+                                        <p class="text-[#818080] text-[16px] leading-[20px]">Balıkesirdeki meşhur
+                                            lokantamız şehrin kenar mahallesindedir.
                                         </p>
                                     </div>
-
                                 </div>
-                                <p class="text-[#818080] text-[14px] leading-[20px]">Etiler Mah. Adnan Saygun Cad.
-                                    Belediye Sitesi Menekşe 3 Blok No: 8 Daire: 2, Etiler, Beşiktaş, İstanbul
-                                </p>
-                                <p class="text-[#818080] text-[16px] leading-[20px]">Located in the heart of the city -
-                                    Istanbul - we serve an array of delicious cuisines. Apart from our everyday Chef's
-                                    choice (i.e. there is something special everyday), the menu includes American, Co...
-                                </p>
-                                <div class="flex justify-between">
-                                    <div class="flex items-center gap-3">
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/icons-phone.png" alt="">
-                                            Phone Number
-                                        </button>
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/directions.png" alt="">
-                                            <!-- <img class="w-[16px] h-[22px] invert" src="./assets/icons-phone.png" alt=""> -->
-                                            Get Directions
-                                        </button>
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/icons-website.png" alt="">
-                                            <!-- <img class="w-[16px] h-[22px] invert" src="./assets/icons-phone.png" alt=""> -->
-                                            Website
-                                        </button>
-                                    </div>
-                                    <div
-                                        class="flex items-center justify-center h-[40px] w-[40px] bg-primary rounded-full">
-                                        <img class="w-[20px] h-[22px]" src="./assets/heart-svgrepo-com (1).svg" alt="">
-                                    </div>
 
-                                </div>
+
                             </div>
                         </div>
-                        <div class="flex border-b border-b-secondary items-center py-5 gap-5">
+                        <div class="flex border-b border-b-secondary items-stretch py-5 gap-5">
                             <!-- Image Box -->
-                            <div
-                                class="img_box rounded-md min-w-[200px] w-[200px] h-[200px] min-h-[200px]  relative overflow-hidden">
+                            <div class="img_box min-w-[200px] w-[200px] flex  relative">
                                 <img src="./assets/clothing.jpg"
-                                    class="hover:scale-110 w-full h-full object-cover hover:duration-300 transition-all duration-300 hover:transition-all"
+                                    class="hover:scale-110 w-full rounded-md h-full object-cover hover:duration-300 transition-all duration-300 hover:transition-all"
                                     alt="" srcset="">
+                                    <button class="absolute bottom-0 px-5 py-1 text-white rounded-md left-2 w-fit translate-y-1/2 bg-[#1F8F1F]">Open</button>
                             </div>
                             <!-- Content Box -->
-                            <div class="content_box flex flex-col w-full self-stretch gap-1 justify-between">
-                                <div class="flex items-center gap-2 justify-between w-full">
-
-                                    <h3 class="text-[24px] leading-8 font-[700]  text-secondary">Liman Istanbul Restoran
+                            <div class="content_box flex flex-col w-full self-stretch justify-center gap-2">
+                                <div class="flex items-center gap-2 w-full">
+                                    <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran
                                     </h3>
-                                    <div class="flex items-center gap-1">
-                                        <div class="inline-flex items-center">
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="black"
-                                                    class="w-5 h-5 cursor-pointer text-blue-gray-500">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
-                                                    </path>
-                                                </svg>
-                                            </span>
+                                    <img class="w-[25px] h-[25px]" src="./assets/check.png" alt="" srcset="">
+                                </div>
+                                <div class="flex gap-5">
+                                    <div class="max-w-[40%] flex flex-col gap-1">
+                                        <h3 class="text-[20px] leading-[20px] font-semibold text-secondary">
+                                            Restoran
+                                        </h3>
+                                        <p class="text-base font-medium text-secondary">
+                                            +90-543-5260733
+                                        </p>
+                                        <div class="flex items-center gap-2 w-full">
+                                            <div class="flex items-center gap-1">
+                                                <div class="inline-flex items-center">
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+                                                            class="w-5 h-5 cursor-pointer text-blue-gray-500">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                                            </path>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <p
+                                                    class="block font-sans text-base antialiased font-medium leading-relaxed text-secondary">
+                                                    (02)
+                                                </p>
+                                            </div>
+                                            <img class="w-[25px] h-[25px] invert" src="./assets/share.png" alt="">
                                         </div>
-                                        <p
-                                            class="block font-sans text-base antialiased font-medium leading-relaxed text-secondary">
-                                            (02)
+                                    </div>
+                                    <div class="max-w-[60%] flex flex-col gap-1">
+                                        <p class="text-[#818080] text-[14px] leading-[20px]">Cumhuriyet Mah. No:7
+                                            Balıkesir Türkiye
+                                        </p>
+                                        <p class="text-[#818080] text-[16px] leading-[20px]">Balıkesirdeki meşhur
+                                            lokantamız şehrin kenar mahallesindedir.
                                         </p>
                                     </div>
-
                                 </div>
-                                <p class="text-[#818080] text-[14px] leading-[20px]">Etiler Mah. Adnan Saygun Cad.
-                                    Belediye Sitesi Menekşe 3 Blok No: 8 Daire: 2, Etiler, Beşiktaş, İstanbul
-                                </p>
-                                <p class="text-[#818080] text-[16px] leading-[20px]">Located in the heart of the city -
-                                    Istanbul - we serve an array of delicious cuisines. Apart from our everyday Chef's
-                                    choice (i.e. there is something special everyday), the menu includes American, Co...
-                                </p>
-                                <div class="flex justify-between">
-                                    <div class="flex items-center gap-3">
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/icons-phone.png" alt="">
-                                            Phone Number
-                                        </button>
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/directions.png" alt="">
-                                            <!-- <img class="w-[16px] h-[22px] invert" src="./assets/icons-phone.png" alt=""> -->
-                                            Get Directions
-                                        </button>
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/icons-website.png" alt="">
-                                            <!-- <img class="w-[16px] h-[22px] invert" src="./assets/icons-phone.png" alt=""> -->
-                                            Website
-                                        </button>
-                                    </div>
-                                    <div
-                                        class="flex items-center justify-center h-[40px] w-[40px] bg-primary rounded-full">
-                                        <img class="w-[20px] h-[22px]" src="./assets/heart-svgrepo-com (1).svg" alt="">
-                                    </div>
 
-                                </div>
+
                             </div>
                         </div>
-                        <div class="flex border-b border-b-secondary items-center py-5 gap-5">
+                        <div class="flex border-b border-b-secondary items-stretch py-5 gap-5">
                             <!-- Image Box -->
-                            <div
-                                class="img_box rounded-md min-w-[200px] w-[200px] h-[200px] min-h-[200px]  relative overflow-hidden">
+                            <div class="img_box min-w-[200px] w-[200px] flex  relative">
                                 <img src="./assets/clothing.jpg"
-                                    class="hover:scale-110 w-full h-full object-cover hover:duration-300 transition-all duration-300 hover:transition-all"
+                                    class="hover:scale-110 w-full rounded-md h-full object-cover hover:duration-300 transition-all duration-300 hover:transition-all"
                                     alt="" srcset="">
+                                    <button class="absolute bottom-0 px-5 py-1 text-white rounded-md left-2 w-fit translate-y-1/2 bg-[#1F8F1F]">Open</button>
                             </div>
                             <!-- Content Box -->
-                            <div class="content_box flex flex-col w-full self-stretch gap-1 justify-between">
-                                <div class="flex items-center gap-2 justify-between w-full">
-
-                                    <h3 class="text-[24px] leading-8 font-[700]  text-secondary">Liman Istanbul Restoran
+                            <div class="content_box flex flex-col w-full self-stretch justify-center gap-2">
+                                <div class="flex items-center gap-2 w-full">
+                                    <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran
                                     </h3>
-                                    <div class="flex items-center gap-1">
-                                        <div class="inline-flex items-center">
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="black"
-                                                    class="w-5 h-5 cursor-pointer text-blue-gray-500">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
-                                                    </path>
-                                                </svg>
-                                            </span>
+                                    <img class="w-[25px] h-[25px]" src="./assets/check.png" alt="" srcset="">
+                                </div>
+                                <div class="flex gap-5">
+                                    <div class="max-w-[40%] flex flex-col gap-1">
+                                        <h3 class="text-[20px] leading-[20px] font-semibold text-secondary">
+                                            Restoran
+                                        </h3>
+                                        <p class="text-base font-medium text-secondary">
+                                            +90-543-5260733
+                                        </p>
+                                        <div class="flex items-center gap-2 w-full">
+                                            <div class="flex items-center gap-1">
+                                                <div class="inline-flex items-center">
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+                                                            class="w-5 h-5 cursor-pointer text-blue-gray-500">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                                            </path>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <p
+                                                    class="block font-sans text-base antialiased font-medium leading-relaxed text-secondary">
+                                                    (02)
+                                                </p>
+                                            </div>
+                                            <img class="w-[25px] h-[25px] invert" src="./assets/share.png" alt="">
                                         </div>
-                                        <p
-                                            class="block font-sans text-base antialiased font-medium leading-relaxed text-secondary">
-                                            (02)
+                                    </div>
+                                    <div class="max-w-[60%] flex flex-col gap-1">
+                                        <p class="text-[#818080] text-[14px] leading-[20px]">Cumhuriyet Mah. No:7
+                                            Balıkesir Türkiye
+                                        </p>
+                                        <p class="text-[#818080] text-[16px] leading-[20px]">Balıkesirdeki meşhur
+                                            lokantamız şehrin kenar mahallesindedir.
                                         </p>
                                     </div>
-
                                 </div>
-                                <p class="text-[#818080] text-[14px] leading-[20px]">Etiler Mah. Adnan Saygun Cad.
-                                    Belediye Sitesi Menekşe 3 Blok No: 8 Daire: 2, Etiler, Beşiktaş, İstanbul
-                                </p>
-                                <p class="text-[#818080] text-[16px] leading-[20px]">Located in the heart of the city -
-                                    Istanbul - we serve an array of delicious cuisines. Apart from our everyday Chef's
-                                    choice (i.e. there is something special everyday), the menu includes American, Co...
-                                </p>
-                                <div class="flex justify-between">
-                                    <div class="flex items-center gap-3">
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/icons-phone.png" alt="">
-                                            Phone Number
-                                        </button>
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/directions.png" alt="">
-                                            <!-- <img class="w-[16px] h-[22px] invert" src="./assets/icons-phone.png" alt=""> -->
-                                            Get Directions
-                                        </button>
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/icons-website.png" alt="">
-                                            <!-- <img class="w-[16px] h-[22px] invert" src="./assets/icons-phone.png" alt=""> -->
-                                            Website
-                                        </button>
-                                    </div>
-                                    <div
-                                        class="flex items-center justify-center h-[40px] w-[40px] bg-primary rounded-full">
-                                        <img class="w-[20px] h-[22px]" src="./assets/heart-svgrepo-com (1).svg" alt="">
-                                    </div>
 
-                                </div>
+
                             </div>
                         </div>
-                        <div class="flex border-b border-b-secondary items-center py-5 gap-5">
+                        <div class="flex border-b border-b-secondary items-stretch py-5 gap-5">
                             <!-- Image Box -->
-                            <div
-                                class="img_box rounded-md min-w-[200px] w-[200px] h-[200px] min-h-[200px]  relative overflow-hidden">
+                            <div class="img_box min-w-[200px] w-[200px] flex  relative">
                                 <img src="./assets/clothing.jpg"
-                                    class="hover:scale-110 w-full h-full object-cover hover:duration-300 transition-all duration-300 hover:transition-all"
+                                    class="hover:scale-110 w-full rounded-md h-full object-cover hover:duration-300 transition-all duration-300 hover:transition-all"
                                     alt="" srcset="">
+                                    <button class="absolute bottom-0 px-5 py-1 text-white rounded-md left-2 w-fit translate-y-1/2 bg-tertiary">Close</button>
                             </div>
                             <!-- Content Box -->
-                            <div class="content_box flex flex-col w-full self-stretch gap-1 justify-between">
-                                <div class="flex items-center gap-2 justify-between w-full">
-
-                                    <h3 class="text-[24px] leading-8 font-[700]  text-secondary">Liman Istanbul Restoran
+                            <div class="content_box flex flex-col w-full self-stretch justify-center gap-2">
+                                <div class="flex items-center gap-2 w-full">
+                                    <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran
                                     </h3>
-                                    <div class="flex items-center gap-1">
-                                        <div class="inline-flex items-center">
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="black"
-                                                    class="w-5 h-5 cursor-pointer text-blue-gray-500">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
-                                                    </path>
-                                                </svg>
-                                            </span>
+                                    <img class="w-[25px] h-[25px]" src="./assets/check.png" alt="" srcset="">
+                                </div>
+                                <div class="flex gap-5">
+                                    <div class="max-w-[40%] flex flex-col gap-1">
+                                        <h3 class="text-[20px] leading-[20px] font-semibold text-secondary">
+                                            Restoran
+                                        </h3>
+                                        <p class="text-base font-medium text-secondary">
+                                            +90-543-5260733
+                                        </p>
+                                        <div class="flex items-center gap-2 w-full">
+                                            <div class="flex items-center gap-1">
+                                                <div class="inline-flex items-center">
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+                                                            class="w-5 h-5 cursor-pointer text-blue-gray-500">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                                            </path>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <p
+                                                    class="block font-sans text-base antialiased font-medium leading-relaxed text-secondary">
+                                                    (02)
+                                                </p>
+                                            </div>
+                                            <img class="w-[25px] h-[25px] invert" src="./assets/share.png" alt="">
                                         </div>
-                                        <p
-                                            class="block font-sans text-base antialiased font-medium leading-relaxed text-secondary">
-                                            (02)
+                                    </div>
+                                    <div class="max-w-[60%] flex flex-col gap-1">
+                                        <p class="text-[#818080] text-[14px] leading-[20px]">Cumhuriyet Mah. No:7
+                                            Balıkesir Türkiye
+                                        </p>
+                                        <p class="text-[#818080] text-[16px] leading-[20px]">Balıkesirdeki meşhur
+                                            lokantamız şehrin kenar mahallesindedir.
                                         </p>
                                     </div>
-
                                 </div>
-                                <p class="text-[#818080] text-[14px] leading-[20px]">Etiler Mah. Adnan Saygun Cad.
-                                    Belediye Sitesi Menekşe 3 Blok No: 8 Daire: 2, Etiler, Beşiktaş, İstanbul
-                                </p>
-                                <p class="text-[#818080] text-[16px] leading-[20px]">Located in the heart of the city -
-                                    Istanbul - we serve an array of delicious cuisines. Apart from our everyday Chef's
-                                    choice (i.e. there is something special everyday), the menu includes American, Co...
-                                </p>
-                                <div class="flex justify-between">
-                                    <div class="flex items-center gap-3">
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/icons-phone.png" alt="">
-                                            Phone Number
-                                        </button>
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/directions.png" alt="">
-                                            <!-- <img class="w-[16px] h-[22px] invert" src="./assets/icons-phone.png" alt=""> -->
-                                            Get Directions
-                                        </button>
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/icons-website.png" alt="">
-                                            <!-- <img class="w-[16px] h-[22px] invert" src="./assets/icons-phone.png" alt=""> -->
-                                            Website
-                                        </button>
-                                    </div>
-                                    <div
-                                        class="flex items-center justify-center h-[40px] w-[40px] bg-primary rounded-full">
-                                        <img class="w-[20px] h-[22px]" src="./assets/heart-svgrepo-com (1).svg" alt="">
-                                    </div>
 
-                                </div>
+
                             </div>
                         </div>
-                        <div class="flex border-b border-b-secondary items-center py-5 gap-5">
+                        <div class="flex border-b border-b-secondary items-stretch py-5 gap-5">
                             <!-- Image Box -->
-                            <div
-                                class="img_box rounded-md min-w-[200px] w-[200px] h-[200px] min-h-[200px]  relative overflow-hidden">
+                            <div class="img_box min-w-[200px] w-[200px] flex  relative">
                                 <img src="./assets/clothing.jpg"
-                                    class="hover:scale-110 w-full h-full object-cover hover:duration-300 transition-all duration-300 hover:transition-all"
+                                    class="hover:scale-110 w-full rounded-md h-full object-cover hover:duration-300 transition-all duration-300 hover:transition-all"
                                     alt="" srcset="">
+                                    <button class="absolute bottom-0 px-5 py-1 text-white rounded-md left-2 w-fit translate-y-1/2 bg-tertiary">Close</button>
                             </div>
                             <!-- Content Box -->
-                            <div class="content_box flex flex-col w-full self-stretch gap-1 justify-between">
-                                <div class="flex items-center gap-2 justify-between w-full">
-
-                                    <h3 class="text-[24px] leading-8 font-[700]  text-secondary">Liman Istanbul Restoran
+                            <div class="content_box flex flex-col w-full self-stretch justify-center gap-2">
+                                <div class="flex items-center gap-2 w-full">
+                                    <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran
                                     </h3>
-                                    <div class="flex items-center gap-1">
-                                        <div class="inline-flex items-center">
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="black"
-                                                    class="w-5 h-5 cursor-pointer text-blue-gray-500">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
-                                                    </path>
-                                                </svg>
-                                            </span>
+                                    <img class="w-[25px] h-[25px]" src="./assets/check.png" alt="" srcset="">
+                                </div>
+                                <div class="flex gap-5">
+                                    <div class="max-w-[40%] flex flex-col gap-1">
+                                        <h3 class="text-[20px] leading-[20px] font-semibold text-secondary">
+                                            Restoran
+                                        </h3>
+                                        <p class="text-base font-medium text-secondary">
+                                            +90-543-5260733
+                                        </p>
+                                        <div class="flex items-center gap-2 w-full">
+                                            <div class="flex items-center gap-1">
+                                                <div class="inline-flex items-center">
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+                                                            class="w-5 h-5 cursor-pointer text-blue-gray-500">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                                            </path>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <p
+                                                    class="block font-sans text-base antialiased font-medium leading-relaxed text-secondary">
+                                                    (02)
+                                                </p>
+                                            </div>
+                                            <img class="w-[25px] h-[25px] invert" src="./assets/share.png" alt="">
                                         </div>
-                                        <p
-                                            class="block font-sans text-base antialiased font-medium leading-relaxed text-secondary">
-                                            (02)
+                                    </div>
+                                    <div class="max-w-[60%] flex flex-col gap-1">
+                                        <p class="text-[#818080] text-[14px] leading-[20px]">Cumhuriyet Mah. No:7
+                                            Balıkesir Türkiye
+                                        </p>
+                                        <p class="text-[#818080] text-[16px] leading-[20px]">Balıkesirdeki meşhur
+                                            lokantamız şehrin kenar mahallesindedir.
                                         </p>
                                     </div>
-
                                 </div>
-                                <p class="text-[#818080] text-[14px] leading-[20px]">Etiler Mah. Adnan Saygun Cad.
-                                    Belediye Sitesi Menekşe 3 Blok No: 8 Daire: 2, Etiler, Beşiktaş, İstanbul
-                                </p>
-                                <p class="text-[#818080] text-[16px] leading-[20px]">Located in the heart of the city -
-                                    Istanbul - we serve an array of delicious cuisines. Apart from our everyday Chef's
-                                    choice (i.e. there is something special everyday), the menu includes American, Co...
-                                </p>
-                                <div class="flex justify-between">
-                                    <div class="flex items-center gap-3">
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/icons-phone.png" alt="">
-                                            Phone Number
-                                        </button>
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/directions.png" alt="">
-                                            <!-- <img class="w-[16px] h-[22px] invert" src="./assets/icons-phone.png" alt=""> -->
-                                            Get Directions
-                                        </button>
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/icons-website.png" alt="">
-                                            <!-- <img class="w-[16px] h-[22px] invert" src="./assets/icons-phone.png" alt=""> -->
-                                            Website
-                                        </button>
-                                    </div>
-                                    <div
-                                        class="flex items-center justify-center h-[40px] w-[40px] bg-primary rounded-full">
-                                        <img class="w-[20px] h-[22px]" src="./assets/heart-svgrepo-com (1).svg" alt="">
-                                    </div>
 
-                                </div>
+
                             </div>
                         </div>
-                        <div class="flex border-b border-b-secondary items-center py-5 gap-5">
+                        <div class="flex border-b border-b-secondary items-stretch py-5 gap-5">
                             <!-- Image Box -->
-                            <div
-                                class="img_box rounded-md min-w-[200px] w-[200px] h-[200px] min-h-[200px]  relative overflow-hidden">
+                            <div class="img_box min-w-[200px] w-[200px] flex  relative">
                                 <img src="./assets/clothing.jpg"
-                                    class="hover:scale-110 w-full h-full object-cover hover:duration-300 transition-all duration-300 hover:transition-all"
+                                    class="hover:scale-110 w-full rounded-md h-full object-cover hover:duration-300 transition-all duration-300 hover:transition-all"
                                     alt="" srcset="">
+                                    <button class="absolute bottom-0 px-5 py-1 text-white rounded-md left-2 w-fit translate-y-1/2 bg-[#1F8F1F]">Open</button>
                             </div>
                             <!-- Content Box -->
-                            <div class="content_box flex flex-col w-full self-stretch gap-1 justify-between">
-                                <div class="flex items-center gap-2 justify-between w-full">
-
-                                    <h3 class="text-[24px] leading-8 font-[700]  text-secondary">Liman Istanbul Restoran
+                            <div class="content_box flex flex-col w-full self-stretch justify-center gap-2">
+                                <div class="flex items-center gap-2 w-full">
+                                    <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran
                                     </h3>
-                                    <div class="flex items-center gap-1">
-                                        <div class="inline-flex items-center">
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    fill="currentColor" class="w-5 h-5 text-[#FF334F] cursor-pointer">
-                                                    <path fill-rule="evenodd"
-                                                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                        clip-rule="evenodd"></path>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="black"
-                                                    class="w-5 h-5 cursor-pointer text-blue-gray-500">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
-                                                    </path>
-                                                </svg>
-                                            </span>
+                                    <img class="w-[25px] h-[25px]" src="./assets/check.png" alt="" srcset="">
+                                </div>
+                                <div class="flex gap-5">
+                                    <div class="max-w-[40%] flex flex-col gap-1">
+                                        <h3 class="text-[20px] leading-[20px] font-semibold text-secondary">
+                                            Restoran
+                                        </h3>
+                                        <p class="text-base font-medium text-secondary">
+                                            +90-543-5260733
+                                        </p>
+                                        <div class="flex items-center gap-2 w-full">
+                                            <div class="flex items-center gap-1">
+                                                <div class="inline-flex items-center">
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+                                                            class="w-5 h-5 cursor-pointer text-blue-gray-500">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                                            </path>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <p
+                                                    class="block font-sans text-base antialiased font-medium leading-relaxed text-secondary">
+                                                    (02)
+                                                </p>
+                                            </div>
+                                            <img class="w-[25px] h-[25px] invert" src="./assets/share.png" alt="">
                                         </div>
-                                        <p
-                                            class="block font-sans text-base antialiased font-medium leading-relaxed text-secondary">
-                                            (02)
+                                    </div>
+                                    <div class="max-w-[60%] flex flex-col gap-1">
+                                        <p class="text-[#818080] text-[14px] leading-[20px]">Cumhuriyet Mah. No:7
+                                            Balıkesir Türkiye
+                                        </p>
+                                        <p class="text-[#818080] text-[16px] leading-[20px]">Balıkesirdeki meşhur
+                                            lokantamız şehrin kenar mahallesindedir.
                                         </p>
                                     </div>
-
                                 </div>
-                                <p class="text-[#818080] text-[14px] leading-[20px]">Etiler Mah. Adnan Saygun Cad.
-                                    Belediye Sitesi Menekşe 3 Blok No: 8 Daire: 2, Etiler, Beşiktaş, İstanbul
-                                </p>
-                                <p class="text-[#818080] text-[16px] leading-[20px]">Located in the heart of the city -
-                                    Istanbul - we serve an array of delicious cuisines. Apart from our everyday Chef's
-                                    choice (i.e. there is something special everyday), the menu includes American, Co...
-                                </p>
-                                <div class="flex justify-between">
-                                    <div class="flex items-center gap-3">
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/icons-phone.png" alt="">
-                                            Phone Number
-                                        </button>
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/directions.png" alt="">
-                                            <!-- <img class="w-[16px] h-[22px] invert" src="./assets/icons-phone.png" alt=""> -->
-                                            Get Directions
-                                        </button>
-                                        <button
-                                            class="flex font-[400] gap-2 text-secondary bg-primary px-[15px] h-[40px] rounded-md items-center">
-                                            <img class="w-[16px] h-[22px] object-contain invert"
-                                                src="./assets/icons-website.png" alt="">
-                                            <!-- <img class="w-[16px] h-[22px] invert" src="./assets/icons-phone.png" alt=""> -->
-                                            Website
-                                        </button>
-                                    </div>
-                                    <div
-                                        class="flex items-center justify-center h-[40px] w-[40px] bg-primary rounded-full">
-                                        <img class="w-[20px] h-[22px]" src="./assets/heart-svgrepo-com (1).svg" alt="">
-                                    </div>
 
-                                </div>
+
                             </div>
                         </div>
+                        <div class="flex border-b border-b-secondary items-stretch py-5 gap-5">
+                            <!-- Image Box -->
+                            <div class="img_box min-w-[200px] w-[200px] flex  relative">
+                                <img src="./assets/clothing.jpg"
+                                    class="hover:scale-110 w-full rounded-md h-full object-cover hover:duration-300 transition-all duration-300 hover:transition-all"
+                                    alt="" srcset="">
+                                    <button class="absolute bottom-0 px-5 py-1 text-white rounded-md left-2 w-fit translate-y-1/2 bg-tertiary">Close</button>
+                            </div>
+                            <!-- Content Box -->
+                            <div class="content_box flex flex-col w-full self-stretch justify-center gap-2">
+                                <div class="flex items-center gap-2 w-full">
+                                    <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran
+                                    </h3>
+                                    <img class="w-[25px] h-[25px]" src="./assets/check.png" alt="" srcset="">
+                                </div>
+                                <div class="flex gap-5">
+                                    <div class="max-w-[40%] flex flex-col gap-1">
+                                        <h3 class="text-[20px] leading-[20px] font-semibold text-secondary">
+                                            Restoran
+                                        </h3>
+                                        <p class="text-base font-medium text-secondary">
+                                            +90-543-5260733
+                                        </p>
+                                        <div class="flex items-center gap-2 w-full">
+                                            <div class="flex items-center gap-1">
+                                                <div class="inline-flex items-center">
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+                                                            class="w-5 h-5 cursor-pointer text-blue-gray-500">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                                            </path>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <p
+                                                    class="block font-sans text-base antialiased font-medium leading-relaxed text-secondary">
+                                                    (02)
+                                                </p>
+                                            </div>
+                                            <img class="w-[25px] h-[25px] invert" src="./assets/share.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="max-w-[60%] flex flex-col gap-1">
+                                        <p class="text-[#818080] text-[14px] leading-[20px]">Cumhuriyet Mah. No:7
+                                            Balıkesir Türkiye
+                                        </p>
+                                        <p class="text-[#818080] text-[16px] leading-[20px]">Balıkesirdeki meşhur
+                                            lokantamız şehrin kenar mahallesindedir.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="flex border-b border-b-secondary items-stretch py-5 gap-5">
+                            <!-- Image Box -->
+                            <div class="img_box min-w-[200px] w-[200px] flex  relative">
+                                <img src="./assets/clothing.jpg"
+                                    class="hover:scale-110 w-full rounded-md h-full object-cover hover:duration-300 transition-all duration-300 hover:transition-all"
+                                    alt="" srcset="">
+                                    <button class="absolute bottom-0 px-5 py-1 text-white rounded-md left-2 w-fit translate-y-1/2 bg-[#1F8F1F]">Open</button>
+                            </div>
+                            <!-- Content Box -->
+                            <div class="content_box flex flex-col w-full self-stretch justify-center gap-2">
+                                <div class="flex items-center gap-2 w-full">
+                                    <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran
+                                    </h3>
+                                    <img class="w-[25px] h-[25px]" src="./assets/check.png" alt="" srcset="">
+                                </div>
+                                <div class="flex gap-5">
+                                    <div class="max-w-[40%] flex flex-col gap-1">
+                                        <h3 class="text-[20px] leading-[20px] font-semibold text-secondary">
+                                            Restoran
+                                        </h3>
+                                        <p class="text-base font-medium text-secondary">
+                                            +90-543-5260733
+                                        </p>
+                                        <div class="flex items-center gap-2 w-full">
+                                            <div class="flex items-center gap-1">
+                                                <div class="inline-flex items-center">
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+                                                            class="w-5 h-5 cursor-pointer text-blue-gray-500">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                                            </path>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <p
+                                                    class="block font-sans text-base antialiased font-medium leading-relaxed text-secondary">
+                                                    (02)
+                                                </p>
+                                            </div>
+                                            <img class="w-[25px] h-[25px] invert" src="./assets/share.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="max-w-[60%] flex flex-col gap-1">
+                                        <p class="text-[#818080] text-[14px] leading-[20px]">Cumhuriyet Mah. No:7
+                                            Balıkesir Türkiye
+                                        </p>
+                                        <p class="text-[#818080] text-[16px] leading-[20px]">Balıkesirdeki meşhur
+                                            lokantamız şehrin kenar mahallesindedir.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="flex border-b border-b-secondary items-stretch py-5 gap-5">
+                            <!-- Image Box -->
+                            <div class="img_box min-w-[200px] w-[200px] flex  relative">
+                                <img src="./assets/clothing.jpg"
+                                    class="hover:scale-110 w-full rounded-md h-full object-cover hover:duration-300 transition-all duration-300 hover:transition-all"
+                                    alt="" srcset="">
+                                    <button class="absolute bottom-0 px-5 py-1 text-white rounded-md left-2 w-fit translate-y-1/2 bg-[#1F8F1F]">Open</button>
+                            </div>
+                            <!-- Content Box -->
+                            <div class="content_box flex flex-col w-full self-stretch justify-center gap-2">
+                                <div class="flex items-center gap-2 w-full">
+                                    <h3 class="text-2xl font-bold text-secondary">Liman Istanbul Restoran
+                                    </h3>
+                                    <img class="w-[25px] h-[25px]" src="./assets/check.png" alt="" srcset="">
+                                </div>
+                                <div class="flex gap-5">
+                                    <div class="max-w-[40%] flex flex-col gap-1">
+                                        <h3 class="text-[20px] leading-[20px] font-semibold text-secondary">
+                                            Restoran
+                                        </h3>
+                                        <p class="text-base font-medium text-secondary">
+                                            +90-543-5260733
+                                        </p>
+                                        <div class="flex items-center gap-2 w-full">
+                                            <div class="flex items-center gap-1">
+                                                <div class="inline-flex items-center">
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                            fill="currentColor"
+                                                            class="w-5 h-5 text-[#FF334F] cursor-pointer">
+                                                            <path fill-rule="evenodd"
+                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+                                                            class="w-5 h-5 cursor-pointer text-blue-gray-500">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                                            </path>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <p
+                                                    class="block font-sans text-base antialiased font-medium leading-relaxed text-secondary">
+                                                    (02)
+                                                </p>
+                                            </div>
+                                            <img class="w-[25px] h-[25px] invert" src="./assets/share.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="max-w-[60%] flex flex-col gap-1">
+                                        <p class="text-[#818080] text-[14px] leading-[20px]">Cumhuriyet Mah. No:7
+                                            Balıkesir Türkiye
+                                        </p>
+                                        <p class="text-[#818080] text-[16px] leading-[20px]">Balıkesirdeki meşhur
+                                            lokantamız şehrin kenar mahallesindedir.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                     
                     </div>
                     <ul class="flex justify-center items-center gap-2">
                         <li
@@ -787,6 +1007,15 @@
                 </div>
                 <div class="flex flex-col gap-8 max-w-[40%]">
                     <div class="flex flex-col gap-4">
+                        <!-- <h3 class="bg-primary text-secondary px-4 py-3 rounded-md text-xl font-bold">View Map</h3> -->
+                        <div class=" rounded-md overflow-hidden">
+                            <iframe width="570" height="400" src="https://www.youtube.com/embed/8BIAVKWTG4Y"
+                                title="Banu ile tanışın - Dijital Lokasyon Yönetimi" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-4">
                         <h3 class="bg-primary text-secondary px-4 py-3 rounded-md text-xl font-bold">View Map</h3>
                         <div class=" rounded-md overflow-hidden">
                             <iframe
@@ -796,12 +1025,40 @@
                         </div>
                     </div>
                     <div class="flex flex-col gap-4">
-                        <h3 class="bg-primary text-secondary px-4 py-3 rounded-md text-xl font-bold">View Map</h3>
-                        <div class=" rounded-md overflow-hidden">
-                            <video width="570" height="400" controls>
-                                <source src="https://youtu.be/8BIAVKWTG4Y?si=OYKAAndiYCeDsyzi" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
+                        <h3 class="bg-primary text-secondary px-4 py-3 rounded-md text-xl font-bold">Related Articles
+                        </h3>
+                        <div class="flex items-center gap-4 border-b border-secondary py-4">
+                            <img class="rounded-md w-[80px] h-[80px] object-cover" src="./assets/Restaurant.jpg" alt=""
+                                srcset="">
+                            <div class="flex flex-col gap-4">
+                                <h3 class="text-2xl font-semibold">Top 10 romantic date night restaurants for
+                                    Winterlicious</h3>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4 border-b border-secondary py-4">
+                            <img class="rounded-md w-[80px] h-[80px] object-cover" src="./assets/health.jpg" alt=""
+                                srcset="">
+                            <div class="flex flex-col gap-4">
+                                <h3 class="text-2xl font-semibold">Try these four simple ways to eat less sugar</h3>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4 border-b border-secondary py-4">
+                            <img class="rounded-md w-[80px] h-[80px] object-cover" src="./assets/travel.jpg" alt=""
+                                srcset="">
+                            <div class="flex flex-col gap-4">
+                                <h3 class="text-2xl font-semibold">Top 10 Best Places for a night out in Istanbul</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <h3 class="bg-primary text-secondary px-4 py-3 rounded-md text-xl font-bold">SIMILAR CATEGORIES
+                        </h3>
+                        <div class="bg-[#ECF0F3] flex flex-col px-3 rounded-md">
+                            <a href="" class="text-xl border-b py-2  border-[#5b5b5b] text-[#5b5b5b]">Restaurants</a>
+                            <a href="" class="text-xl border-b py-2 border-[#5b5b5b] text-[#5b5b5b]">Turkish cuisine</a>
+                            <a href="" class="text-xl border-b py-2 border-[#5b5b5b] text-[#5b5b5b]">Home Food
+                                Delivery</a>
+                            <a href="" class="text-xl py-2 text-[#5b5b5b]">Kebab shops</a>
                         </div>
                     </div>
                 </div>
