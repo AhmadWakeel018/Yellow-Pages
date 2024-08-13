@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const splide2El = document.querySelector('.slider-two');
     const splide3El = document.querySelector('.slider-three');
     const splide4El = document.querySelector('.slider-four');
+    const splide5El = document.querySelector('.slider-five');
     const scrollThreshold = 200; // Adjust this value as needed
     
     function initSplide(element, className, perPageProp) {
         if (element) {
-            console.log(`Initializing ${className}`);
             try {
                 new Splide(element, {
                     type: 'loop',
@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     pagination:false,
                     interval: 3000
                 }).mount();
-                console.log(`${className} initialized successfully`);
             } catch (error) {
                 console.error(`Error initializing ${className}:`, error);
             }
@@ -32,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
     initSplide(splide2El, '.slider-two',3);
     initSplide(splide3El, '.slider-three',4);
     initSplide(splide4El, '.slider-four',4);
+    initSplide(splide5El, '.slider-five',3);
 
     function handleScroll() {
         if (window.scrollY > scrollThreshold) {
