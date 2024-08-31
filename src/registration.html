@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Static Header -->
+    <section id="staticHeader" class="bg-primary fixed w-full top-0 z-30 ">
+        <div class="container my-2 mx-auto w-full flex justify-between items-center py-3 ">
+            <img src="./assets/Yellow-Pages-w-Text (YellowPages-TurkiyeninFirmaRehberi).png" width="240" alt="Logo"
+                srcset="">
+            <div class="flex gap-12 items-center">
+                <ul class="flex gap-8 text-base font-bold text-secondary">
+                    <li class="cursor-pointer hover:underline-offset-[12px] hover:underline">Grow your Business</li>
+                    <li class="cursor-pointer hover:underline-offset-[12px] hover:underline">Blog</li>
+                </ul>
+                <div class="flex gap-3">
+                    <button
+                        class="px-14 h-[44px] rounded-md text-base hover:underline-offset-[12px] hover:underline font-bold text-secondary">Login
+                        / Register</button>
+
+                    <button style="border-radius: 50px;"
+                        class="px-10 h-[44px] border-2 border-black text-base font-bold text-secondary hover:shadow-[0px_7px_9px_0px_rgba(148,139,37,20)] transition-all">+
+                        Add Listing</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Header -->
+    <section id="stickyHeader" class="bg-primary fixed w-full top-0 z-30 hidden">
+        <div class="container my-2 mx-auto w-full flex justify-between items-center py-3 ">
+            <img src="./assets/Yellow-Pages-w-Text (YellowPages-TurkiyeninFirmaRehberi).png" width="240" alt="Logo"
+                srcset="">
+            <div class="flex bg-white items-center pl-4 rounded-md gap-0 shadow-[0px_7px_9px_0px_rgba(148,139,37,20)] ">
+                <div class="relative flex-1 flex items-center">
+                    <input
+                        class="pl-10 w-full pr-[15px] placeholder:font-light rounded-md text-base font-bold text-secondary focus-visible:outline-none"
+                        type="text" name="" id="" placeholder="What are you looking for">
+                    <img class="absolute left-3" src="./assets/Search.png" alt="">
+                </div>
+
+                <div style="border-right: 1px solid rgb(187, 187, 187); height: 35px;"></div>
+                <div class="relative flex items-center flex-1">
+                    <input
+                        class="pl-10 w-full pr-[15px] placeholder:font-light rounded-md text-base font-bold text-secondary focus-visible:outline-none"
+                        type="text" name="" id="" placeholder="Location">
+                    <img class="absolute left-3" src="./assets/location-icon.png" alt="">
+                </div>
+
+                <button class=""
+                    style="background-color: black; border-radius: 5px; width: 50px; height: 50px; display: flex; justify-content: center; align-items: center;">
+                    <img class="invert" src="./assets/Search.png" alt="">
+                </button>
+
+            </div>
+            <div class="flex gap-12 items-center">
+                <div class="flex gap-5">
+                    <button
+                        class="text-base hover:underline-offset-[12px] hover:underline font-bold text-secondary">Login
+                        / Register</button>
+
+                    <button style="border-radius: 50px;"
+                        class="px-10 h-[44px] border-2 border-black text-base font-bold text-secondary hover:shadow-[0px_7px_9px_0px_rgba(148,139,37,20)] transition-all">+
+                        Add Listing</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[#ffcd00] h-[350px] relative ">
+        <!-- Hero Search Section -->
+        <div class="container mx-auto flex flex-col w-full h-full py-10 gap-2 justify-center items-center ">
+            <!-- <div class="flex flex-col gap-8 pt-[84px]"> -->
+            <h1 class="text-[48px] leading-[56px] font-semibold text-secondary text-center">ADD YOUR BUSINESS</h1>
+            <p class="text-[28px] leading-[40px] font-medium text-secondary text-center">Add your company to Turkey’s
+                largest online business directory.</p>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto flex flex-col w-full h-full py-10 max-w-[1024px]">
+            <div class="grid grid-cols-2 gap-5">
+                <div class="flex flex-col ">
+                    <label class="text-secondary text-base font-medium w-fit uppercase" for="">Business Name</label>
+                    <input class="h-[40px] border-b-2 border-primary py-1 focus-within:outline-none" type="text"
+                        placeholder="Yellow Pages">
+                </div>
+                <div class="flex flex-col ">
+                    <label class="text-secondary text-base font-medium w-fit uppercase" for="">Website</label>
+                    <input class="h-[40px] border-b-2 border-primary py-1 focus-within:outline-none" type="text"
+                        placeholder="https://en.yellowpages.com.tr/">
+                </div>
+                <div class="flex flex-col ">
+                    <label class="text-secondary text-base font-medium w-fit uppercase" for="">Address</label>
+                    <input class="h-[40px] border-b-2 border-primary py-1 focus-within:outline-none" type="text"
+                        placeholder=" Palm City AVM No: 2 Daire: 274, Yenişehir, Mersin">
+                </div>
+                <div class="flex flex-col ">
+                    <label class="text-secondary text-base font-medium w-fit uppercase" for="">Company Size</label>
+                    <select name="employee_size_id" class="h-[40px] border-b-2 border-primary py-1 focus-within:outline-none" placeholder="Company Size" ref="employeeCount">
+                        <option value="11-50">11-50</option>
+                        <option value="51-200">51-200</option>
+                        <option value="201-500">201-500</option>
+                        <option value="501-1000">501-1000</option>
+                        <option value="1001-5000">1001-5000</option>
+                        <option value="5001-10000">5001-10000</option>
+                        <option value="10000+">10000+</option>
+                        <option value="Bilgi vermedi">Bilgi vermedi</option>
+                    </select>
+                </div>
+                <div class="flex flex-col ">
+                    <label class="text-secondary text-base font-medium w-fit uppercase" for="">Area City</label>
+                    <input class="h-[40px] border-b-2 border-primary py-1 focus-within:outline-none" type="text"
+                        placeholder="Sarıyer, İstanbul">
+                </div>
+                <div class="flex flex-col ">
+                    <label class="text-secondary text-base font-medium w-fit uppercase" for="">Brands</label>
+                    <input class="h-[40px] border-b-2 border-primary py-1 focus-within:outline-none" type="text"
+                        placeholder="Coca Cola">
+                </div>
+                <div class="flex flex-col ">
+                    <label class="text-secondary text-base font-medium w-fit uppercase" for="">Business Category</label>
+                    <input class="h-[40px] border-b-2 border-primary py-1 focus-within:outline-none" type="text"
+                        placeholder="Restaurant">
+                </div>
+                <div class="flex flex-col ">
+                    <label class="text-secondary text-base font-medium w-fit uppercase" for="">Phone</label>
+                    <input class="h-[40px] border-b-2 border-primary py-1 focus-within:outline-none" type="text"
+                        placeholder="0212 877 09 48">
+                </div>
+                <div class="flex flex-col col-span-2">
+                    <label class="text-secondary text-base font-medium w-fit uppercase" for="">Description</label>
+                    <textarea class="border-b-2 border-primary py-1 focus-within:outline-none" 
+                        placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nam qui porro repudiandae modi distinctio veritatis nesciunt cum?" ></textarea>
+                </div>
+                <div class="flex flex-col ">
+                    <label class="text-secondary text-base font-medium w-fit uppercase" for="">Contact Name</label>
+                    <input class="h-[40px] border-b-2 border-primary py-1 focus-within:outline-none" type="text"
+                        placeholder="Murat">
+                </div>
+                <div class="flex flex-col ">
+                    <label class="text-secondary text-base font-medium w-fit uppercase" for="">Contanct Title</label>
+                    <input class="h-[40px] border-b-2 border-primary py-1 focus-within:outline-none" type="text"
+                        placeholder="CEO">
+                </div>
+                <div class="flex flex-col ">
+                    <label class="text-secondary text-base font-medium w-fit uppercase" for="">Contact Phone</label>
+                    <input class="h-[40px] border-b-2 border-primary py-1 focus-within:outline-none" type="text"
+                        placeholder="021 888 09 09">
+                </div>
+                <div class="flex flex-col ">
+                    <label class="text-secondary text-base font-medium w-fit uppercase" for="">Contanct Email</label>
+                    <input class="h-[40px] border-b-2 border-primary py-1 focus-within:outline-none" type="text"
+                        placeholder="admin@yellowpages.com">
+                </div>
+                <div class="flex gap-2 items-center ">
+                    <label class="order-1 text-secondary text-base font-medium w-fit">I want to get Super Page .</label>
+                    <input class="" type="checkbox"
+                        placeholder="Murat">
+                </div>
+                <div class="flex gap-2 items-center ">
+                    <label class="order-1 text-secondary text-base font-medium w-fit">I want a mobile-friendly web site .</label>
+                    <input class="" type="checkbox"
+                        placeholder="CEO">
+                </div>
+                <div class="flex gap-2 items-center ">
+                    <label class="order-1 text-secondary text-base font-medium w-fit">I want to be found on digital maps .</label>
+                    <input class="" type="checkbox"
+                        placeholder="021 888 09 09">
+                </div>
+                <div class="flex gap-2 items-center ">
+                    <label class="order-1 text-secondary text-base font-medium w-fit"> I want to use Google AdWords .</label>
+                    <input class="" type="checkbox"
+                        placeholder="admin@yellowpages.com">
+                </div>
+                <button class="flex bg-tertiary w-[200px] py-2 px-3 items-center justify-center rounded-md">
+                    <p class="text-base text-white  uppercase">Submit</p>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-[#f8f9fa] flex flex-col">
+        <div class="container flex flex-col gap-10 mt-14 mb-4 mx-auto">
+            <div class="grid grid-cols-4 border-b pb-4">
+                <div class="flex flex-col gap-5">
+                    <h2 class="text-secondary text-2xl font-medium">Popular Categories</h2>
+                    <div class="flex flex-col gap-3">
+                        <p class="text-black text-base">Restaurant</p>
+                        <p class="text-black text-base">Clothing</p>
+                        <p class="text-black text-base">Mobile Phones</p>
+                        <p class="text-black text-base">Health Sector</p>
+                        <p class="text-black text-base">Travel and Tourism</p>
+                        <p class="text-black text-base">Automobiles</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <h2 class="text-secondary text-2xl font-medium">Popular Locations</h2>
+                    <div class="flex flex-col gap-3">
+                        <p class="text-black text-base">Istanbul</p>
+                        <p class="text-black text-base">Ankara</p>
+                        <p class="text-black text-base">Izmir</p>
+                        <p class="text-black text-base">Bursa</p>
+                        <p class="text-black text-base">Antalya</p>
+                        <p class="text-black text-base">Konya</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <h2 class="text-secondary text-2xl font-medium">About</h2>
+                    <div class="flex flex-col gap-3">
+                        <p class="text-black text-base">About Us</p>
+                        <p class="text-black text-base">Advertise with Us</p>
+                        <p class="text-black text-base">Become a Partner</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <h2 class="text-secondary text-2xl font-medium">Site Directory</h2>
+                    <div class="flex flex-col gap-3">
+                        <p class="text-black text-base">Articles</p>
+                        <p class="text-black text-base">Find a Business</p>
+                        <p class="text-black text-base">White Pages</p>
+                        <p class="text-black text-base">Mobile Apps</p>
+                        <p class="text-black text-base">Reverse Phone Lookup</p>
+                        <p class="text-black text-base">Site Map</p>
+                        <p class="text-black text-base">Browse Restaurants</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-1 justify-center items-center">
+                <!-- <img class="w-[48px] h-[48px]" src="./assets/yellow-pages-turkiye_big.png" alt="" srcset=""> -->
+                <p class="text-secondary text-base font-light "> Yeşilce Mah. Dalgıç Sok. No:11 YBY CO11 Kat:3 4.Levent,
+                    Kağıthane, İstanbul </p>
+                <p class="text-secondary text-base font-light "> 2016 - 2024 DataWorks </p>
+
+                <!-- <div class="flex gap-2">
+                        <p class="text-white text-base font-light ">Privacy Policy</p>
+                    </div> -->
+                <div>
+                    <img src="./assets/footer-image.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

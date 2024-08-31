@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reset password</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans">
+    <section class="flex justify-center items-center w-[100vw] h-[100vh]">
+        <div class="reset-password shadow-xl rounded-md w-[380px] lg:w-[55%] md:w-[60%] sm:w-[70%]">
+            <div
+                class="header bg-[#ffcd00] rounded-t-md flex items-center px-5 h-[50px] shadow-[1px_1px_7px_0px] shadow-[#f8f8f8] w-[100%] ">
+                <h2 class=" py-3 text-md  "><span class="font-bold">Reset password</h2>
+            </div>
+            <div class="px-7 lg:py-7 lg:px-10 pt-6 rounded-b-md py-3 bg-[#ffffff] w-[100%]">
+                <p class=" text-[10px] lg:text-[15px] md:text-[13px] pb-4 font-[550]">Please provide your email
+                    address to receive password reset instructions</p>
+                <label class=" text-md font-[550] text-[500]" for="email "> Email</label>
+                <input
+                    class="py-5  px-6 mt-1 h-[42px] w-[100%] rounded-md bg-gray-50 border-gray-300 border text-sm placeholder-gray-500 bg-[#f8f8f8] focus:outline-none"
+                    type="email" id="email" placeholder="Email" required>
+                <div class="submit-btn mt-5 flex justify-end gap-5 ">
+                    <button
+                        class="btn font-bold h-[35px] md:h-[42px] lg:h-[42px] text-gray-700 bg-gray-50 border-gray-300 w-[19%] lg:w-[16%] text-sm rounded-md hover:bg-gray-200 hover:border-transparent hover:scale-110  transition-all  duration-[.3s] ease-linear  ">Cancel</button>
+                    <a href="./otp.html"
+                        class="btn font-bold h-[35px] md:h-[42px] lg:h-[42px] bg-yellow-400 w-[19%] lg:w-[16%] text-sm rounded-md hover:bg-yellow-500 hover:scale-110 transition-all duration-[.3s] ease-linear">Submit</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>singIn</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans">
+    <section class="signin flex justify-center mt-3">
+        <div class="main-container bg-white shadow-xl rounded-md w-[380px] lg:w-[70%] md:w-[90%] sm-[40%]">
+            <div
+                class="header bg-[#ffcd00] flex items-center rounded-t-md px-5  w-[100%] h-[50px] shadow-[1px_1px_7px_0px] shadow-[#f8f8f8] ">
+                <h2 class=" py-3 font-bold text-[px] width-100 ">Connect to your YP Account</h2>
+            </div>
+            <div class=" flex justify-center ">
+                <div
+                    class="welcomemsg-container flex items-center w-[50%] pt-7 pb-5 rounded-bl-md bg-[url('./assets/bg-img002.jpeg')] bg-cover bg-center no-repeat hidden md:flex ">
+                    <h2 class="message px-12 text-white text-[40px] font-bold ">
+                        Welcome Back!</h2>
+                </div>
+                <div
+                    class="form-container-container px-12 pt-2 rounded-r-md py-3 bg-[#ffffff] w-full lg:w-[50%] md:w-[50%] ">
+                    <form action="">
+                        <h2 class="text-md font-semibold text-center">By Email</h2>
+                        <input
+                            class="py-3 px-6 h-[42px] mt-2 w-[100%] rounded-md border-gray-300 border text-sm focus:outline-none placeholder-gray-500 bg-[#f8f8f8]"
+                            type="email" name="email " placeholder="Email" required>
+                        <input
+                            class="py-3 px-6 h-[42px] mt-4 w-[100%] rounded-md bg-gray-50 border-gray-300 border text-sm focus:outline-none placeholder-gray-500 bg-[#f8f8f8]"
+                            type="password" name="password" placeholder="Password" required>
+                        <div class="flex justify-between ">
+                            <div class="remember-me flex items-center gap-1">
+                                <input type="checkbox" id="remember-me" name="remember-me" checked>
+                                <label class="text-[11px] text-gray-600  " for="remember-me">Remember me</label>
+                            </div>
+                            <div class="forgot-password ">
+                                <a class="underline underline-offset-1 hover:no-underline text-gray-600 text-[11px]"
+                                    href="./reset.html">Forgot your password?</a>
+                            </div>
+                        </div>
+                        <div class="login-btn mt-5">
+                            <button
+                                class="btn text-md font-bold h-[41px] bg-yellow-400 w-[100%] rounded-md hover:bg-yellow-500 hover:scale-105 transition-all duration-[.3s] ease-linear">Login</button>
+                        </div>
+                    </form>
+                    <div class="flex items-center justify-between mt-3">
+                        <hr class="w-1/3 border-gray-300">
+                        <span class="text-gray-500">OR</span>
+                        <hr class="w-1/3 border-gray-300">
+                    </div>
+                    <div class="social-login mt-4">
+                        <button
+                            class="flex justify-between items-center font-bold mt-2 bg-[#3b5998;] w-[100%] py-3 h-[42px] rounded-md px-5 text-white text-sm hover:scale-105 transition-all duration-[.3s] ease-linear">
+                            <div>Login with fackbook</div>
+                            <div class="w-9 h-8 border-gray-400 border-l-2">
+                                <img class="ml-1 border-gray-400" src="./assets/facebook-logo.svg" width="32spx"
+                                    alt="facebook logo">
+                            </div>
+                        </button>
+                        <button
+                            class="flex justify-between items-center font-bold mt-3 bg-[#dd4b39] w-[100%] h-[42px] py-3  rounded-md px-4 text-white text-sm hover:scale-105  transition-all  duration-[.3s] ease-linear">
+                            <div class="">Login with Google</div>
+                            <div class="w-10 h-8 border-gray-400 border-l-2" style="margin-left: 10px;">
+                                <img class="ml-3 border-gray-400 " src="./assets/google-plus.svg" width="29px"
+                                    alt="google logo">
+                            </div>
+                        </button>
+                    </div>
+                    <p class="text-[10px] text-center mt-2 text-gray-400 leading-3 ">Don't worry, we won't post anything
+                        to your social
+                        accounts without your permission.</p>
+                    <div class="signup mt-3 ">
+                        <p class="text-[13px] text-gray-600 text-center ">Don't have an account yet? <a
+                                class="underline underline-offset-1 hover:no-underline" href="./signup.html">Click here
+                                to signup</a></p>
+                    </div>
+                    <div class="list mt-3 w-100">
+                        <ul class="flex gap-5 justify-center ">
+                            <li><a  class="underline underline-offset-1 hover:no-underline text-sm" href="contact.html">Contact
+                                    us</a></li>
+                            <li><a class="underline underline-offset-1 hover:no-underline text-sm " href="#">Privacy
+                                    policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

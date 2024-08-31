@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        input,
+        textarea {
+            outline: none;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#F3F3F3] pt-20">
+    <!-- Static Header -->
+    <section id="staticHeader" class="bg-primary fixed w-full top-0 z-30 ">
+        <div class="container my-2 mx-auto w-full flex justify-between items-center py-3 ">
+            <img src="./assets/Yellow-Pages-w-Text (YellowPages-TurkiyeninFirmaRehberi).png" width="240" alt="Logo"
+                srcset="">
+            <div class="flex gap-12 items-center">
+                <ul class="flex gap-8 text-base font-bold text-secondary">
+                    <li class="cursor-pointer hover:underline-offset-[12px] hover:underline">Grow your Business</li>
+                    <li class="cursor-pointer hover:underline-offset-[12px] hover:underline">Blog</li>
+                </ul>
+                <div class="flex gap-3">
+                    <button
+                        class="px-14 h-[44px] rounded-md text-base hover:underline-offset-[12px] hover:underline font-bold text-secondary">Login
+                        / Register</button>
+
+                    <button style="border-radius: 50px;"
+                        class="px-10 h-[44px] border-2 border-black text-base font-bold text-secondary hover:shadow-[0px_7px_9px_0px_rgba(148,139,37,20)] transition-all">+
+                        Add Listing</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sticky Header -->
+    <section id="stickyHeader" class="bg-primary fixed w-full top-0 z-30 hidden">
+        <div class="container my-2 mx-auto w-full flex justify-between items-center py-3 ">
+            <img src="./assets/Yellow-Pages-w-Text (YellowPages-TurkiyeninFirmaRehberi).png" width="240" alt="Logo"
+                srcset="">
+            <div class="flex bg-white items-center pl-4 rounded-md gap-0 shadow-[0px_7px_9px_0px_rgba(148,139,37,20)] ">
+                <div class="relative flex-1 flex items-center">
+                    <input
+                        class="pl-10 w-full pr-[15px] placeholder:font-light rounded-md text-base font-bold text-secondary focus-visible:outline-none"
+                        type="text" name="" id="" placeholder="What are you looking for">
+                    <img class="absolute left-3" src="./assets/Search.png" alt="">
+                </div>
+
+                <div style="border-right: 1px solid rgb(187, 187, 187); height: 35px;"></div>
+                <div class="relative flex items-center flex-1">
+                    <input
+                        class="pl-10 w-full pr-[15px] placeholder:font-light rounded-md text-base font-bold text-secondary focus-visible:outline-none"
+                        type="text" name="" id="" placeholder="Location">
+                    <img class="absolute left-3" src="./assets/location-icon.png" alt="">
+                </div>
+
+                <button class=""
+                    style="background-color: black; border-radius: 5px; width: 50px; height: 50px; display: flex; justify-content: center; align-items: center;">
+                    <img class="invert" src="./assets/Search.png" alt="">
+                </button>
+
+            </div>
+            <div class="flex gap-12 items-center">
+                <div class="flex gap-5">
+                    <button
+                        class="text-base hover:underline-offset-[12px] hover:underline font-bold text-secondary">Login
+                        / Register</button>
+
+                    <button style="border-radius: 50px;"
+                        class="px-10 h-[44px] border-2 border-black text-base font-bold text-secondary hover:shadow-[0px_7px_9px_0px_rgba(148,139,37,20)] transition-all">+
+                        Add Listing</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact us form  -->
+    <section class=" max-w-[1366px] rounded-[12px] mx-auto px-20 form md:flex w-[100%] justify-center mt-8">
+        <form action="" class="bg-white p-10 pb-4 w-full md:w-[50%]">
+            <h3 class="text-lg font-semibold">Contact us</h3>
+            <div class="name-email flex items-center mt-2 w-full gap-2">
+                <span class="flex flex-col w-[50%]">
+                    <label class="text-sm font-semibold" for="name">FULL NAME</label>
+                    <input type="text" id="name" placeholder="Name" class="bg-gray-200  rounded-sm p-2">
+                </span>
+                <span class="flex flex-col w-[50%]">
+                    <label class="text-sm font-semibold" for="email">EMAIL ADDRESS</label>
+                    <input type="text" id="email" placeholder="Email" class="bg-gray-200 rounded-sm p-2">
+                </span>
+            </div>
+            <div class="subject mt-2">
+                <label class="text-sm font-semibold" for="subject">SUBJECT</label>
+                <input type="text" placeholder="Subject" name="" id="subject" class="bg-gray-200 w-full rounded-sm p-2">
+            </div>
+            <div class="message mt-2">
+                <label class="text-sm font-semibold" for="message">MESSAGE</label>
+                <textarea placeholder="Message" name="" id="message"
+                    class="bg-gray-200 w-full rounded-sm p-2 outline-none "></textarea>
+            </div>
+            <button href="" class="p-2 rounded hover:bg-green-700 mt-2 text-white text-sm"
+                style="background-color: rgba(1, 1, 139, 0.952);">Send Message</button>
+        </form>
+        <div class="map md:w-[50%] mt-4 md:mt-0 h-auto">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509373!2d144.9537353153159!3d-37.81627997975185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5774205e63630f!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1616306924217!5m2!1sen!2sau"
+                style="border:0;" allowfullscreen="" loading="lazy" class="w-full h-[100%] md:h-96">
+            </iframe>
+        </div>
+    </section>
+
+
+    <!-- contact us  -->
+    <section class="w-[85%] flex flex-col m-auto mt-12">
+        <h1 class="text-3xl text-gray-700">Contact us</h1>
+        <p class="pt-5 pb-3 text-sm">We have 2 dedicated account systems in order to better serve you.</p>
+        <ul>
+            <li class="list-inside list-disc ps-2 text-sm my-1"><a class="underline hover:no-underline" href="">If you
+                    are a merchant,</a> contact or log into the <a href="#" class="underline hover:no-underline">
+                    Business Centre </a>where you will be able to modify all your information.</li>
+            <li class="list-inside list-disc ps-2 text-sm"><a class="underline hover:no-underline" href="">If you are a
+                    user,</a> use our contact form to report a missing listing, or to receive support regarding your
+                contribution(s) or account issues.</li>
+        </ul>
+        <div class="icons flex justify-between md:justify-center py-9">
+            <ul class="flex gap-16 items-center">
+                <li><img src="./assets/hand-color-desktop.svg" alt=""></li>
+                <li><img src="./assets/hand-color-laptop.svg" alt=""></li>
+                <li><img src="./assets/hand-color-tablet.svg" alt=""></li>
+                <li><img src="./assets/hand-color-mobile.svg" alt=""></li>
+                <li><img src="./assets/hand-color-web-cursor.svg" alt=""></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- merchant section  -->
+    <section class="merchant">
+        <div class="w-5/6  bg-white m-auto">
+            <h2 class="p-5 text-xl font-semibold text-gray-900">I am a merchant...</h2>
+            <hr class="my-1 mx-5 text-black">
+            <div class="content md:flex justify-between px-6 align-middle py-6">
+                <ul class="list-inside list-disc">
+                    <li><a class="font-medium hover:underline" href="">I want to create a YP.ca business profile</a>
+                    </li>
+                    <li><a class="font-medium hover:underline" href="">I want to claim my business on YP.ca</a></li>
+                    <li><a class="font-medium hover:underline" href="">I want more info about YP products</a></li>
+                    <li><a class="font-medium hover:underline" href="">I want to manage my existing yp business account.
+                        </a></li>
+                </ul>
+                <div class="call-box mt-4 md:mt-0 w-full md:w-2/4 bg-[#F3F3F3] flex justify-center items-center">
+                    <div class="call-icon mx-3"><img src="./assets/hand-color-phone.svg" alt=""></div>
+                    <div class="call-content">
+                        <p class="text-lg">Call the customer service team at</p>
+                        <p class="text-3xl text-gray-800">1-844-875-4290</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- user section  -->
+    <section class="user my-7">
+        <div class="w-5/6  bg-white m-auto">
+            <h2 class="p-5 text-xl font-semibold text-gray-900">I am a user...</h2>
+            <hr class="my-1 mx-5 text-black">
+            <div class="content md:flex justify-between px-6 align-middle py-6">
+                <ul class="list-inside list-disc">
+                    <li><a class="font-medium hover:underline" href="#">I am having trouble with my YP account</a></li>
+                    <li><a class="font-medium hover:underline" href="#">I need help with photos, reviews, etc that I
+                            have submitted</a></li>
+                    <li><a class="font-medium hover:underline" href="#">I want to report a missing business on YP.ca
+                        </a></li>
+                    <li><a class="font-medium hover:underline" href="#">I want to contact YP Dine</a></li>
+                </ul>
+                <div class="md:w-2/4 mt-4 w-full md:mt-0  items-center">
+
+                    <p>Or, consult our frequently asked questions. For example:</p>
+                    <ul class="list-inside list-disc">
+                        <li><a class="text-sm font-bold hover:underline text-gray-600" href="#">I cannot access my
+                                account</a></li>
+                        <li><a class="text-sm font-bold hover:underline text-gray-600" href="#">I forgot my password</a>
+                        </li>
+                        <li><a class="text-sm font-bold hover:underline text-gray-600" href="#">I have a different
+                                question</a></li>
+                        <li><a class="text-sm font-bold hover:underline text-gray-600" href="#">See all FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Find a person  -->
+    <section class="find my-7">
+        <div class="w-5/6  bg-white m-auto">
+            <h2 class="p-5 text-xl font-semibold text-gray-900">Canada 411 - Find a person</h2>
+            <hr class="my-1 mx-5 text-black">
+            <div class="content  md:flex justify-between px-6 align-middle py-6">
+                <ul class="list-inside list-disc">
+                    <li><a class="font-medium hover:underline" href="#">View our frequently asked questions</a></li>
+                    <li><a class="font-medium hover:underline" href="#">Contact us using the form</a></li>
+                </ul>
+                <div class="call-box w-2/4  items-center">
+                    <ul class="list-inside list-disc">
+                        <li><a class="hover:underline font-medium" href="#">View all help content</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Residential section  -->
+    <section class="Residential">
+        <div class="w-5/6  bg-white m-auto">
+            <h2 class="p-5 text-xl font-semibold text-gray-900">Yellow Pages print directory - Residential</h2>
+            <hr class="my-1 mx-5 text-black">
+            <div class="content mt-3 md:mt-0 md:flex justify-between px-6 align-middle py-6">
+
+
+                <div class="text-box w-[100%]">
+                    <p class="text-sm">Residential print directories are available by request in the following regions:
+                        Toronto, Montreal, Vancouver, Calgary, Edmonton, Ottawa-Gatineau and Quebec City. In all other
+                        regions, your residential directory is included in your Yellow Pages directory.</p>
+                    <p class="py-4 text-sm">To request a print directory, or to stop receiving it, visit <a
+                            class="underline hover:no-underline" href="#">delivery.yp.ca</a></p>
+                </div>
+
+                <div class="call-box w-[100%] bg-[#F3F3F3] flex justify-center items-center">
+                    <div class="call-icon mx-3"><img src="./assets/hand-color-phone.svg" alt=""></div>
+                    <div class="call-content py-6 ">
+                        <p class="text-lg">Or, call us at</p>
+                        <p class="text-3xl text-gray-800">1-800-268-5637</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Services  -->
+    <section class="Services my-7">
+        <div class="w-5/6  bg-white m-auto">
+            <h2 class="p-5 text-xl font-semibold text-gray-900">Other Services</h2>
+            <hr class="my-1 mx-5 text-black">
+            <div class="content flex justify-between px-6 align-middle py-6">
+                <ul class="list-inside list-disc">
+                    <li><a class="font-medium hover:underline text-gray-800" href="#">Account Billings and Publishing
+                            dates: Call us at 1-844-875-4290</a></li>
+                    <li><a class="font-medium hover:underline text-gray-800" href="#">Media relations inquiries: Contact
+                            Corporate Communications at media@yp.ca</a></li>
+                    <li><a class="font-medium hover:underline text-gray-800" href="#">Editorial content: For inquiries
+                            related to Business Stories, Smart Lists, and Smart Tips, contact the editorial team at
+                            editor@yp.ca</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- office location  -->
+    <section class="office-location">
+
+        <div class="flex items-center w-5/6 mx-auto">
+            <div class="flex-grow border-t border-black"></div>
+            <span class="mx-4 uppercase">Our office locations</span>
+            <div class="flex-grow border-t border-black"></div>
+        </div>
+
+        <div class="head-quaters w-5/6 mx-auto flex justify-center mt-5 mb-12">
+            <ul>
+                <h1 class="text-lg"> Headquarters</h1>
+                <li class="text-sm text-gray-800"> 1751 Richardson</li>
+                <li class="text-sm text-gray-800"> Montreal, QC</li>
+                <li class="text-sm text-gray-800"> H3K 1G6</li>
+                <li class="text-sm text-gray-800"> Main number: (514) 934-2611</li>
+                <li class="text-sm text-gray-800">Toll free number: 1 800 361-6010</li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- Footer Section -->
+    <section class="bg-[#f8f9fa] flex flex-col">
+        <div class="container flex flex-col gap-10 mt-14 mb-4 mx-auto">
+            <div class="grid grid-cols-4 border-b pb-4">
+                <div class="flex flex-col gap-5">
+                    <h2 class="text-secondary text-2xl font-medium">Popular Categories</h2>
+                    <div class="flex flex-col gap-3">
+                        <p class="text-black text-base">Restaurant</p>
+                        <p class="text-black text-base">Clothing</p>
+                        <p class="text-black text-base">Mobile Phones</p>
+                        <p class="text-black text-base">Health Sector</p>
+                        <p class="text-black text-base">Travel and Tourism</p>
+                        <p class="text-black text-base">Automobiles</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <h2 class="text-secondary text-2xl font-medium">Popular Locations</h2>
+                    <div class="flex flex-col gap-3">
+                        <p class="text-black text-base">Istanbul</p>
+                        <p class="text-black text-base">Ankara</p>
+                        <p class="text-black text-base">Izmir</p>
+                        <p class="text-black text-base">Bursa</p>
+                        <p class="text-black text-base">Antalya</p>
+                        <p class="text-black text-base">Konya</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <h2 class="text-secondary text-2xl font-medium">About</h2>
+                    <div class="flex flex-col gap-3">
+                        <p class="text-black text-base">About Us</p>
+                        <p class="text-black text-base">Advertise with Us</p>
+                        <p class="text-black text-base">Become a Partner</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <h2 class="text-secondary text-2xl font-medium">Site Directory</h2>
+                    <div class="flex flex-col gap-3">
+                        <p class="text-black text-base">Articles</p>
+                        <p class="text-black text-base">Find a Business</p>
+                        <p class="text-black text-base">White Pages</p>
+                        <p class="text-black text-base">Mobile Apps</p>
+                        <p class="text-black text-base">Reverse Phone Lookup</p>
+                        <p class="text-black text-base">Site Map</p>
+                        <p class="text-black text-base">Browse Restaurants</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-1 justify-center items-center">
+                <!-- <img class="w-[48px] h-[48px]" src="./assets/yellow-pages-turkiye_big.png" alt="" srcset=""> -->
+                <p class="text-secondary text-base font-light "> Yeşilce Mah. Dalgıç Sok. No:11 YBY CO11 Kat:3 4.Levent,
+                    Kağıthane, İstanbul </p>
+                <p class="text-secondary text-base font-light "> 2016 - 2024 DataWorks </p>
+
+                <!-- <div class="flex gap-2">
+                <p class="text-white text-base font-light ">Privacy Policy</p>
+            </div> -->
+                <div>
+                    <img src="./assets/footer-image.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

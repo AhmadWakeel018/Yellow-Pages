@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans">
+    <section class="OTP-container flex justify-center items-center w-[100vw] h-[100vh] ">
+        <div class="OTP shadow-xl rounded-md w-[400px] lg:w-[55%] md:w-[60%] sm:w-[70%]">
+            <div
+                class="header bg-[#ffcd00] rounded-t-md flex items-center px-5 h-[50px] shadow-[1px_1px_7px_0px] shadow-[#f8f8f8] w-[100%]">
+                <h2 class="py-3 text-md"><span class="font-bold">Please verify your OTP</h2>
+            </div>
+            <div class="container px-7 lg:py-7 lg:px-10 pt-6 rounded-b-md py-3 bg-[#ffffff] w-[100%]">
+                <p class=" text-[13px] lg:text-[15px] md:text-[13px] pb-4 font-[550]  ">Please check your OTP which is
+                    Valid for 10 mintus</p>
+                <label class=" text-md font-[550] text-[500]" for="OTP "> OTP</label>
+                <input
+                    class="py-5 mt-1 px-6 h-[42px] w-[100%] rounded-md bg-gray-50 border-gray-300 border text-sm placeholder-gray-500 bg-[#f8f8f8] focus:outline-none"
+                    type="Text" id="OTP" placeholder="OTP" required>
+                <div class="submit-btn mt-5 flex justify-end gap-5 ">
+                    <a href="./new-password.html"
+                        class="btn font-bold h-[40px] md:h-[42px] lg:h-[42px] bg-yellow-400 w-[23%] lg:w-[16%] md:w-[16%] sm:w-[19%] text-sm  rounded-md hover:bg-yellow-500 hover:scale-110  transition-all duration-[.3s] ease-linear">Verify
+                        OTP</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
